@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontakt | Petra Pavlek</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="index.html" class="logo">Petra <span>Pavlek</span></a>
+    <nav id="nav">
+      <ul>
+        <li><a href="index.html">Programi</a></li>
+        <li><a href="konstelacije.html">Sistemske konstelacije</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="portal.html">Korisnički portal</a></li>
+        <li><a href="kontakt.html" class="nav-cta active">Rezerviraj termin</a></li>
+      </ul>
+    </nav>
+    <button class="burger" onclick="document.getElementById('nav').classList.toggle('open')" aria-label="Izbornik">☰</button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="kicker">Kontakt</div>
+  <h1>Javi se — tu sam.</h1>
+  <p>Rezerviraj svoj termin ili besplatni online uvodni razgovor. Zajedno ćemo pronaći oblik rada koji ti u ovom trenutku najviše koristi.</p>
+</section>
+
+<section class="form-wrap">
+  <div class="form-card">
+    <h2>Pošalji upit</h2>
+    <p class="sub">Odgovaram u najkraćem mogućem roku.</p>
+    <form onsubmit="event.preventDefault();this.innerHTML='<p class=\'form-success\'>Hvala na poruci! Javit ću se uskoro.</p>';">
+      <div class="field">
+        <label for="k-ime">Ime i prezime</label>
+        <input id="k-ime" type="text" placeholder="Vaše ime" required>
+      </div>
+      <div class="field">
+        <label for="k-email">Email adresa</label>
+        <input id="k-email" type="email" placeholder="ime@email.com" required>
+      </div>
+      <div class="field">
+        <label for="k-poruka">Poruka</label>
+        <textarea id="k-poruka" placeholder="Što te zanima? Koji program ili termin?" required></textarea>
+      </div>
+      <button type="submit" class="btn">Pošalji poruku</button>
+    </form>
+    <p class="form-note">Slanjem poruke pristajete da vas kontaktiramo povratno na navedeni email.</p>
+  </div>
+</section>
+
+<section class="quote">
+  <blockquote>„Ako ne znaš gdje početi, javi se. Prvi razgovor je besplatan i bez ikakve obveze.“</blockquote>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">Petra Pavlek</div>
+        <p>Povratak sebi — kroz tijelo, dah i svjesnost.</p>
+      </div>
+      <div class="footer-links">
+        <a href="kontakt.html">Kontakt</a>
+        <a href="index.html">Programi</a>
+        <a href="konstelacije.html">Sistemske konstelacije</a>
+        <a href="blog.html">Blog</a>
+      </div>
+    </div>
+    <div class="eu">
+      <img src="img/eu-financira.jpg" alt="Financira Europska unija – NextGenerationEU">
+      <p>Financira Europska unija – NextGenerationEU. Izneseni stavovi i mišljenja samo su autorova i ne odražavaju nužno službena stajališta Europske unije ili Europske komisije. Ni Europska unija ni Europska komisija ne mogu se smatrati odgovornima za njih.</p>
+    </div>
+    <div class="copy">© 2026 Petra Pavlek. Sva prava pridržana.</div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Korisnički portal | Petra Pavlek</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="index.html" class="logo">Petra <span>Pavlek</span></a>
+    <nav id="nav">
+      <ul>
+        <li><a href="index.html">Programi</a></li>
+        <li><a href="konstelacije.html">Sistemske konstelacije</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="portal.html" class="active">Korisnički portal</a></li>
+        <li><a href="kontakt.html" class="nav-cta">Rezerviraj termin</a></li>
+      </ul>
+    </nav>
+    <button class="burger" onclick="document.getElementById('nav').classList.toggle('open')" aria-label="Izbornik">☰</button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="kicker">Korisnički portal</div>
+  <h1>Tvoj prostor za rad na sebi.</h1>
+  <p>Pristup materijalima, snimkama i rasporedu za polaznike programa.</p>
+</section>
+
+<section class="form-wrap">
+  <div class="form-card">
+    <h2>Prijava</h2>
+    <p class="sub">Prijavi se podacima koje si dobio/la pri upisu u program.</p>
+    <form onsubmit="event.preventDefault();this.innerHTML='<p class=\'form-success\'>Ovo je testna verzija — prijava još nije aktivna.</p>';">
+      <div class="field">
+        <label for="p-email">Email adresa</label>
+        <input id="p-email" type="email" placeholder="ime@email.com" required>
+      </div>
+      <div class="field">
+        <label for="p-pass">Lozinka</label>
+        <input id="p-pass" type="password" placeholder="••••••••" required>
+      </div>
+      <button type="submit" class="btn">Prijavi se</button>
+    </form>
+    <p class="form-note">Zaboravljena lozinka? <a href="kontakt.html" style="text-decoration:underline;">Javi se ovdje.</a></p>
+  </div>
+</section>
+
+<section class="choose">
+  <h2>Još nisi u programu?</h2>
+  <p>Rezerviraj besplatni online uvodni razgovor i pronađi oblik rada koji ti najviše odgovara.</p>
+  <a href="kontakt.html" class="btn">Rezerviraj razgovor</a>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">Petra Pavlek</div>
+        <p>Povratak sebi — kroz tijelo, dah i svjesnost.</p>
+      </div>
+      <div class="footer-links">
+        <a href="kontakt.html">Kontakt</a>
+        <a href="index.html">Programi</a>
+        <a href="konstelacije.html">Sistemske konstelacije</a>
+        <a href="blog.html">Blog</a>
+      </div>
+    </div>
+    <div class="eu">
+      <img src="img/eu-financira.jpg" alt="Financira Europska unija – NextGenerationEU">
+      <p>Financira Europska unija – NextGenerationEU. Izneseni stavovi i mišljenja samo su autorova i ne odražavaju nužno službena stajališta Europske unije ili Europske komisije. Ni Europska unija ni Europska komisija ne mogu se smatrati odgovornima za njih.</p>
+    </div>
+    <div class="copy">© 2026 Petra Pavlek. Sva prava pridržana.</div>
+  </div>
+</footer>
+
+</body>
+</html>

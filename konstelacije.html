@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sistemske konstelacije | Petra Pavlek</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="index.html" class="logo">Petra <span>Pavlek</span></a>
+    <nav id="nav">
+      <ul>
+        <li><a href="index.html">Programi</a></li>
+        <li><a href="konstelacije.html" class="active">Sistemske konstelacije</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="portal.html">Korisnički portal</a></li>
+        <li><a href="kontakt.html" class="nav-cta">Rezerviraj termin</a></li>
+      </ul>
+    </nav>
+    <button class="burger" onclick="document.getElementById('nav').classList.toggle('open')" aria-label="Izbornik">☰</button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="kicker">Sistemske konstelacije</div>
+  <h1>Duboki uvid u nesvjesne obrasce.</h1>
+  <p>Iskustvena metoda koja razotkriva nevidljive dinamike i transgeneracijske obrasce koji nas nesvjesno vode kroz život.</p>
+</section>
+
+<section class="split">
+  <div class="wrap split-grid">
+    <img src="img/konstelacija-figure.jpg" alt="Figure u sistemskoj konstelaciji">
+    <div class="split-text">
+      <h2>Ne dozvoli da ono što ne vidiš upravlja tobom.</h2>
+      <p>Sistemske konstelacije donose uvid koji mijenja perspektivu i pokreće duboke promjene. Osvjesti obiteljske obrasce i preuzmi odgovornost za svoj život.</p>
+      <p>Osim postavljanja vlastite konstelacije, možeš sudjelovati i u tuđim radovima. Reprezentiranje u sistemskim konstelacijama jedna je od najboljih stvari koju možeš učiniti za sebe i svoj osobni rast — iako formalno ne radiš na vlastitom pitanju, sudjelovanje nosi brojne benefite kroz koje se događa neočekivano iscjeljenje i osobni pomak.</p>
+      <a href="kontakt.html" class="btn">Zakaži svoj rad</a>
+    </div>
+  </div>
+</section>
+
+<section class="benefits">
+  <div class="wrap">
+    <h2>Zašto je reprezentiranje u konstelacijama korisno?</h2>
+    <p class="sub">Uloga reprezentanta donosi benefite na svim razinama — i onda kad tema nije tvoja osobna.</p>
+    <div class="benefit-grid">
+      <div class="benefit">
+        <h3>Psihološko–emocionalni</h3>
+        <p>Snažna prilika za emocionalno rasterećenje i osobni razvoj. Često se pojave potisnute emocije, pa reprezentant doživljava olakšanje i smanjenje unutarnje napetosti. Razvija se empatija i samorefleksija — u tuđim pričama često prepoznajemo obrasce iz vlastitog života.</p>
+      </div>
+      <div class="benefit">
+        <h3>Tjelesni</h3>
+        <p>Tijelo spontano reagira i oslobađa se napetosti. Umiruje se živčani sustav, usklađuje ritam disanja, otpušta napetost u mišićima i smanjuje razina stresa — čak i kad tema nije osobna.</p>
+      </div>
+      <div class="benefit">
+        <h3>Socijalni</h3>
+        <p>Uči se slušati bez predrasuda i osude, opažati ljude u njihovoj cjelovitosti. Stvara se osjećaj zajedništva i pripadnosti grupi u kojoj vlada povjerenje — prilika biti viđen i prihvaćen takav kakav jesi.</p>
+      </div>
+      <div class="benefit">
+        <h3>Duhovno–razvojni</h3>
+        <p>Dublje razumijevanje povezanosti među ljudima i sistemima kojima pripadamo. Razvija se intuicija i povjerenje u unutarnje vodstvo, uz osjećaj smisla, pripadnosti i zahvalnosti za svoje mjesto u obiteljskom sistemu.</p>
+      </div>
+      <div class="benefit">
+        <h3>Terapeutski</h3>
+        <p>Kroz tuđi proces pojavljuju se sekundarna iscjeljenja — ono što se razrješava u konstelaciji često dotakne i vlastite nesvjesne teme. Učinak se nastavlja i nakon konstelacije, kroz postupno usklađivanje emocija, misli i odnosa.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="choose">
+  <h2>Spremna/spreman za svoj rad?</h2>
+  <p>Odaberi individualnu ili grupnu konstelaciju, ili se prijavi kao reprezentant.</p>
+  <a href="index.html#konstelacije" class="btn">Pogledaj opcije i cijene</a>
+</section>
+
+<section class="newsletter">
+  <h2>Ostanimo u kontaktu</h2>
+  <p>Prijavite se za obavijesti o terminima grupnih konstelacija i slobodnim mjestima.</p>
+  <form class="nl-form" onsubmit="event.preventDefault();this.innerHTML='<p style=\'color:var(--teal);font-weight:600;margin:0 auto;\'>Hvala na prijavi!</p>';">
+    <input type="text" placeholder="Vaše ime" required>
+    <input type="email" placeholder="Vaša email adresa" required>
+    <button type="submit">Prijava</button>
+  </form>
+  <p class="nl-note">Odjaviti se možete kad god poželite.</p>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">Petra Pavlek</div>
+        <p>Povratak sebi — kroz tijelo, dah i svjesnost.</p>
+      </div>
+      <div class="footer-links">
+        <a href="kontakt.html">Kontakt</a>
+        <a href="index.html">Programi</a>
+        <a href="konstelacije.html">Sistemske konstelacije</a>
+        <a href="blog.html">Blog</a>
+      </div>
+    </div>
+    <div class="eu">
+      <img src="img/eu-financira.jpg" alt="Financira Europska unija – NextGenerationEU">
+      <p>Financira Europska unija – NextGenerationEU. Izneseni stavovi i mišljenja samo su autorova i ne odražavaju nužno službena stajališta Europske unije ili Europske komisije. Ni Europska unija ni Europska komisija ne mogu se smatrati odgovornima za njih.</p>
+    </div>
+    <div class="copy">© 2026 Petra Pavlek. Sva prava pridržana.</div>
+  </div>
+</footer>
+
+</body>
+</html>
