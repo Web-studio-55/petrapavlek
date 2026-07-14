@@ -27,17 +27,9 @@
   </div>
 </header>
 
-<section class="page-hero">
-  <div class="kicker">Blog</div>
-  <h1>Misli, uvidi i praksa.</h1>
-  <p>Tekstovi o konstelacijama, tijelu, emocijama i povratku sebi.</p>
-</section>
-
-<section class="post-list">
-  <div class="wrap" id="posts" style="display:grid;gap:32px;">
-    <p>Učitavam objave…</p>
-  </div>
-</section>
+<article class="article" id="article">
+  <p>Učitavam…</p>
+</article>
 
 <section class="newsletter" style="background:var(--light);">
   <h2>Ostanimo u kontaktu</h2>
@@ -74,39 +66,31 @@
 
 <script>
 (function(){
-  var el = document.getElementById('posts');
+  var slug = (new URLSearchParams(location.search).get('slug') || '').replace(/[^a-z0-9-]/g, '');
+  var el = document.getElementById('article');
+  if (!slug) { el.innerHTML = '<p>Objava nije pronađena. <a href="blog.html" style="color:var(--teal);">Natrag na blog</a></p>'; return; }
 
-  function render(posts){
-    if (!posts || !posts.length) {
-      el.innerHTML = '<p style="text-align:center;">Uskoro stižu prve objave.</p>';
-      return;
-    }
+  function render(p){
+    document.title = p.title + ' | Petra Pavlek';
     el.innerHTML = '';
-    posts.forEach(function(p){
-      var a = document.createElement('a');
-      a.className = 'post-card';
-      a.href = 'post.html?slug=' + p.slug;
-      var img = p.cover ? '<div class="post-card-img" style="background-image:url(\'' + p.cover + '\')"></div>' : '';
-      a.innerHTML = img +
-        '<div class="post-card-body">' +
-          '<div class="tag">' + (p.date || 'Blog') + '</div>' +
-          '<h2></h2><p></p>' +
-          '<span class="btn-outline">Pročitaj članak</span>' +
-        '</div>';
-      a.querySelector('h2').textContent = p.title;
-      a.querySelector('p').textContent = p.excerpt || '';
-      el.appendChild(a);
-    });
+    var tag = document.createElement('div'); tag.className = 'tag'; tag.textContent = 'Blog' + (p.date ? ' · ' + p.date : '');
+    var h1 = document.createElement('h1'); h1.textContent = p.title;
+    el.appendChild(tag); el.appendChild(h1);
+    if (p.cover) { var im = document.createElement('img'); im.src = p.cover; im.alt = p.title; el.appendChild(im); }
+    var body = document.createElement('div'); body.innerHTML = p.html; el.appendChild(body);
+    var back = document.createElement('p'); back.style.marginTop = '36px';
+    back.innerHTML = '<a href="blog.html" class="btn-outline">← Natrag na blog</a>';
+    el.appendChild(back);
   }
 
-  fetch('/api/blog', {cache:'no-store'})
+  fetch('/api/blog?slug=' + slug, {cache:'no-store'})
     .then(function(r){ if (!r.ok) throw 0; return r.json(); })
     .then(render)
     .catch(function(){
-      fetch('posts/index.json', {cache:'no-store'})
+      fetch('posts/' + slug + '.json', {cache:'no-store'})
         .then(function(r){ if (!r.ok) throw 0; return r.json(); })
         .then(render)
-        .catch(function(){ render([]); });
+        .catch(function(){ el.innerHTML = '<p>Objava nije pronađena. <a href="blog.html" style="color:var(--teal);">Natrag na blog</a></p>'; });
     });
 })();
 </script>
