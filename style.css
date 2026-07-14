@@ -69,6 +69,7 @@ nav a:hover,nav a.active{color:var(--teal);}
 .shop h2{text-align:center;font-size:clamp(26px,3.5vw,38px);font-weight:500;margin-bottom:12px;}
 .shop .sub{text-align:center;max-width:640px;margin:0 auto 54px;}
 .shop-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;}
+.shop-grid.grid-2{grid-template-columns:repeat(2,1fr);max-width:900px;margin:0 auto;}
 .shop-card{background:#fff;border-radius:18px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 6px 24px rgba(20,40,40,.06);transition:transform .25s,box-shadow .25s;}
 .shop-card:hover{transform:translateY(-5px);box-shadow:0 14px 34px rgba(20,40,40,.12);}
 .shop-img{height:220px;background-size:cover;background-position:center;}
@@ -180,7 +181,7 @@ footer{background:var(--dark);color:#b2b0b0;padding:70px 0 40px;font-size:14px;}
   .program:nth-child(even) .program-img{order:0;}
   .program-img{min-height:260px;}
   .program-body{padding:40px 30px;}
-  .shop-grid{grid-template-columns:1fr;}
+  .shop-grid,.shop-grid.grid-2{grid-template-columns:1fr;}
   .split-grid{grid-template-columns:1fr;gap:36px;}
   .post-card{grid-template-columns:1fr;}
   .post-card-img{min-height:220px;}
