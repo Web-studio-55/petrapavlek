@@ -91,6 +91,8 @@
     <div class="field">
       <label>Tekst objave</label>
       <div id="editor"></div>
+      <p class="form-note" style="text-align:left;margin-top:8px;">Kopirani tekst zalijepi tipkama <strong>Cmd+V</strong> (Mac) ili <strong>Ctrl+V</strong> (Windows) — prvo klikni u polje za tekst. Ako ne uspije, koristi ovaj gumb:</p>
+      <button type="button" class="mini edit" id="paste-btn" style="margin-top:6px;">📋 Zalijepi kopirani tekst</button>
     </div>
     <div class="btn-row">
       <button class="btn" id="publish">Objavi</button>
@@ -175,6 +177,18 @@ function pickImage(){
   };
   inp.click();
 }
+// ---- gumb za lijepljenje teksta (rezerva ako Cmd/Ctrl+V ne radi) ----
+document.getElementById('paste-btn').addEventListener('click', function(){
+  navigator.clipboard.readText().then(function(t){
+    if (!t) { alert('Međuspremnik je prazan — prvo kopiraj tekst (Cmd+C / Ctrl+C).'); return; }
+    var range = quill.getSelection(true);
+    quill.insertText(range.index, t.replace(/\r\n/g, '\n'));
+    quill.setSelection(range.index + t.length);
+  }).catch(function(){
+    alert('Preglednik traži dozvolu za međuspremnik — potvrdi je, ili klikni u polje za tekst pa koristi Cmd+V / Ctrl+V.');
+  });
+});
+
 document.getElementById('f-cover').addEventListener('change', function(){
   if (!this.files[0]) return;
   resizeImage(this.files[0], 1400, function(dataUri){

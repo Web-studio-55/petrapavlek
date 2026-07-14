@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Korisnički portal | Petra Pavlek</title>
+<title>O meni | Petra Pavlek</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -17,10 +17,10 @@
     <nav id="nav">
       <ul>
         <li><a href="index.html">Programi</a></li>
-        <li><a href="omeni.html">O meni</a></li>
+        <li><a href="omeni.html" class="active">O meni</a></li>
         <li><a href="konstelacije.html">Sistemske konstelacije</a></li>
         <li><a href="blog.html">Blog</a></li>
-        <li><a href="portal.html" class="active">Korisnički portal</a></li>
+        <li><a href="portal.html">Korisnički portal</a></li>
         <li><a href="kontakt.html" class="nav-cta">Rezerviraj termin</a></li>
       </ul>
     </nav>
@@ -29,34 +29,37 @@
 </header>
 
 <section class="page-hero">
-  <div class="kicker">Korisnički portal</div>
-  <h1>Tvoj prostor za rad na sebi.</h1>
-  <p>Pristup materijalima, snimkama i rasporedu za polaznike programa.</p>
+  <div class="kicker">O meni</div>
+  <h1>Zovem se Petra Pavlek.</h1>
+  <p>Učiteljica yoge, voditeljica sistemskih konstelacija i autorica Samadhi metode osobnog rasta i rada s traumom.</p>
 </section>
 
-<section class="form-wrap">
-  <div class="form-card">
-    <h2>Prijava</h2>
-    <p class="sub">Prijavi se podacima koje si dobio/la pri upisu u program.</p>
-    <form onsubmit="event.preventDefault();this.innerHTML='<p class=\'form-success\'>Ovo je testna verzija — prijava još nije aktivna.</p>';">
-      <div class="field">
-        <label for="p-email">Email adresa</label>
-        <input id="p-email" type="email" placeholder="ime@email.com" required>
-      </div>
-      <div class="field">
-        <label for="p-pass">Lozinka</label>
-        <input id="p-pass" type="password" placeholder="••••••••" required>
-      </div>
-      <button type="submit" class="btn">Prijavi se</button>
-    </form>
-    <p class="form-note">Zaboravljena lozinka? <a href="kontakt.html" style="text-decoration:underline;">Javi se ovdje.</a></p>
+<section class="split">
+  <div class="wrap split-grid">
+    <img src="img/petra-portret.jpg" alt="Petra Pavlek">
+    <div class="split-text">
+      <h2>Moj rad povezuje tijelo, dah i svijest kroz iskustvo.</h2>
+      <p>Ne radim s teorijom i analizama, nego s čovjekom koji želi ponovno osjetiti sebe.</p>
+      <p>Vjerujem da promjena počinje osjećajem sigurnosti u vlastitom tijelu. Zato Samadhi pristup ne traži da nešto popravimo, već da se vratimo onome što u nama već zna kako disati, umiriti se, dopustiti si i živjeti.</p>
+      <p>Kroz godine rada s ljudima naučila sam da ono što svima najviše treba nije tehnika, nego prostor gdje ih netko vidi i čuje, u kojem smiju jednostavno biti, bez da ih se pokušava promijeniti. U tom prostoru um se prestaje boriti, a tijelo samo počinje otpuštati ono što više ne treba.</p>
+    </div>
   </div>
 </section>
 
 <section class="choose">
-  <h2>Želiš krenuti, ali nisi siguran/sigurna odakle?</h2>
-  <p>Rezerviraj besplatni uvodni razgovor i zajedno ćemo otkriti koji program najbolje odgovara tvom trenutnom koraku.</p>
-  <a href="kontakt.html" class="btn">Rezerviraj razgovor</a>
+  <h2>Ako osjećaš da je vrijeme da zastaneš i ponovo pronađeš sebe, tu sam.</h2>
+  <a href="kontakt.html" class="btn">Kontaktiraj me</a>
+</section>
+
+<section class="newsletter">
+  <h2>Ostanimo u kontaktu</h2>
+  <p>Prijavite se na mailing listu kako biste primali novosti i obavijesti o nadolazećim radionicama, terminima i slobodnim mjestima.</p>
+  <form class="nl-form" onsubmit="event.preventDefault();this.innerHTML='<p style=\'color:var(--teal);font-weight:600;margin:0 auto;\'>Hvala na prijavi!</p>';">
+    <input type="text" placeholder="Vaše ime" required>
+    <input type="email" placeholder="Vaša email adresa" required>
+    <button type="submit">Prijava</button>
+  </form>
+  <p class="nl-note">Odjaviti se možete kad god poželite.</p>
 </section>
 
 <footer>
