@@ -1,0 +1,8 @@
+{
+  "slug": "probni-post",
+  "title": "Probni post",
+  "excerpt": "Test CMS-a.",
+  "cover": "",
+  "html": "<p>Ovo je test objave kroz admin.</p>",
+  "date": "2026-07-14"
+}
