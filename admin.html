@@ -205,9 +205,24 @@ document.getElementById('tb-img').addEventListener('click', function(){
   };
   inp.click();
 });
+// naslovna fotka: automatski izreži na omjer 3:2 (1200x800) da sve kartice izgledaju jednako
+function cropCover(file, cb){
+  var img = new Image();
+  img.onload = function(){
+    var TW = 1200, TH = 800;
+    var scale = Math.max(TW / img.width, TH / img.height);
+    var sw = TW / scale, sh = TH / scale;
+    var sx = (img.width - sw) / 2, sy = (img.height - sh) / 2;
+    var c = document.createElement('canvas');
+    c.width = TW; c.height = TH;
+    c.getContext('2d').drawImage(img, sx, sy, sw, sh, 0, 0, TW, TH);
+    cb(c.toDataURL('image/jpeg', 0.82));
+  };
+  img.src = URL.createObjectURL(file);
+}
 document.getElementById('f-cover').addEventListener('change', function(){
   if (!this.files[0]) return;
-  resizeImage(this.files[0], 1400, function(dataUri){
+  cropCover(this.files[0], function(dataUri){
     coverData = dataUri;
     var pv = document.getElementById('cover-preview');
     pv.src = dataUri; pv.style.display = 'block';

@@ -78,7 +78,7 @@
     var tag = document.createElement('div'); tag.className = 'tag'; tag.textContent = 'Blog' + (p.date ? ' · ' + p.date : '');
     var h1 = document.createElement('h1'); h1.textContent = p.title;
     el.appendChild(tag); el.appendChild(h1);
-    if (p.cover) { var im = document.createElement('img'); im.src = p.cover; im.alt = p.title; el.appendChild(im); }
+    if (p.cover) { var im = document.createElement('img'); im.src = p.cover; im.alt = p.title; im.className = 'cover'; el.appendChild(im); }
     var body = document.createElement('div'); body.innerHTML = p.html; el.appendChild(body);
     var back = document.createElement('p'); back.style.marginTop = '36px';
     back.innerHTML = '<a href="blog.html" class="btn-outline">← Natrag na blog</a>';

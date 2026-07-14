@@ -125,6 +125,8 @@ nav a:hover,nav a.active{color:var(--teal);}
 .article h2{font-size:22px;font-weight:600;margin:40px 0 14px;}
 .article p{margin-bottom:18px;}
 .article img{border-radius:18px;margin:10px 0 30px;}
+.article img.cover{width:100%;max-height:440px;object-fit:cover;}
+.article div img{max-height:520px;object-fit:contain;margin:16px auto;}
 
 /* ---------- Forme (kontakt, portal) ---------- */
 .form-card{background:#fff;border-radius:18px;padding:48px 44px;box-shadow:0 10px 34px rgba(20,40,40,.10);max-width:520px;margin:0 auto;}
