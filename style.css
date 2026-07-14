@@ -192,4 +192,15 @@ footer{background:var(--dark);color:#b2b0b0;padding:70px 0 40px;font-size:14px;}
   .hero p{margin:0 auto 30px;}
   .hero-photo img{width:min(270px,76%);}
   .form-card{padding:36px 24px;}
+  .page-hero{padding:64px 20px;}
+  .intro{padding:70px 0 50px;}
+  .shop{padding:64px 0;}
+  .shop-more .btn,.shop-more .btn-outline{font-size:11px;padding:12px 22px;}
+  .choose{padding:70px 20px;}
+  .quote{padding:70px 20px;}
+  .newsletter{padding:64px 20px;}
+  .article{padding:60px 20px;}
+  .split{padding:60px 0;}
+  .benefits{padding:60px 0;}
+  .post-card-body{padding:28px 22px;}
 }
