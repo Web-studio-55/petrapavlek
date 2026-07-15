@@ -143,6 +143,15 @@ nav a:hover,nav a.active{color:var(--teal);}
 .form-wrap{padding:80px 24px;background:var(--light);}
 .form-success{color:var(--teal);font-weight:600;text-align:center;padding:20px 0;}
 
+/* ---------- FAQ ---------- */
+.faq{max-width:780px;margin:0 auto;padding:70px 24px 90px;}
+.faq details{background:#fff;border:1px solid #e7eae9;border-radius:14px;margin-bottom:12px;box-shadow:0 4px 16px rgba(20,40,40,.04);}
+.faq summary{cursor:pointer;list-style:none;padding:20px 54px 20px 24px;font-family:'Lora',Georgia,serif;font-size:18px;font-weight:600;color:var(--dark);position:relative;}
+.faq summary::-webkit-details-marker{display:none;}
+.faq summary::after{content:'+';position:absolute;right:22px;top:50%;transform:translateY(-50%);font-size:24px;color:var(--teal);font-family:'Open Sans',sans-serif;font-weight:300;transition:transform .2s;}
+.faq details[open] summary::after{content:'−';}
+.faq details p{padding:0 24px 20px;color:var(--grey);}
+
 /* ---------- Newsletter ---------- */
 .newsletter{padding:90px 24px;text-align:center;}
 .newsletter h2{font-size:clamp(24px,3vw,32px);font-weight:500;margin-bottom:14px;}
