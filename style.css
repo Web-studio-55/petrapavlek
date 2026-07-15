@@ -32,7 +32,7 @@ nav a:hover,nav a.active{color:var(--teal);}
 .hero-text{padding:90px 0 110px;align-self:center;}
 .hero .kicker,.page-hero .kicker{font-size:13px;letter-spacing:.35em;text-transform:uppercase;font-weight:600;color:var(--teal);margin-bottom:18px;}
 .kicker-line{font-family:'Lora',Georgia,serif;font-style:italic;font-size:17px;color:var(--teal);margin-bottom:16px;}
-.hero h1{font-size:clamp(36px,5vw,58px);font-weight:500;margin-bottom:22px;color:var(--dark);}
+.hero h1{font-size:clamp(30px,4vw,46px);font-weight:500;margin-bottom:22px;color:var(--dark);}
 .hero p{max-width:520px;margin:0 0 36px;font-size:18px;color:var(--grey);font-weight:300;}
 .hero-photo{align-self:end;display:flex;justify-content:center;}
 .hero-photo img{width:min(432px,90%);filter:drop-shadow(0 24px 48px rgba(20,40,40,.22));}
