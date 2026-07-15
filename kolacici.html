@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blog | Petra Pavlek</title>
+<title>Pravila kolačića | Petra Pavlek</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
         <li><a href="programi.html">Programi</a></li>
         <li><a href="omeni.html">O meni</a></li>
         <li><a href="konstelacije.html">Sistemske konstelacije</a></li>
-        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="blog.html">Blog</a></li>
         <li><a href="portal.html">Korisnički portal</a></li>
         <li><a href="kontakt.html" class="nav-cta">Rezerviraj termin</a></li>
       </ul>
@@ -29,27 +29,42 @@
 </header>
 
 <section class="page-hero">
-  <div class="kicker">Blog</div>
-  <h1>Misli, uvidi i praksa.</h1>
-  <p>Tekstovi o konstelacijama, tijelu, emocijama i povratku sebi.</p>
+  <div class="kicker">Pravila kolačića</div>
+  <h1>Kako koristimo kolačiće</h1>
 </section>
 
-<section class="post-list">
-  <div class="wrap" id="posts" style="display:grid;gap:32px;">
-    <p>Učitavam objave…</p>
-  </div>
-</section>
+<article class="article">
 
-<section class="newsletter" style="background:var(--light);">
-  <h2>Ostanimo u kontaktu</h2>
-  <p>Prijavite se na mailing listu kako biste primali novosti i obavijesti o novim tekstovima, radionicama i terminima.</p>
-  <form class="nl-form" onsubmit="event.preventDefault();this.innerHTML='<p style=\'color:var(--teal);font-weight:600;margin:0 auto;\'>Hvala na prijavi!</p>';">
-    <input type="text" placeholder="Vaše ime" required>
-    <input type="email" placeholder="Vaša email adresa" required>
-    <button type="submit">Prijava</button>
-  </form>
-  <p class="nl-note">Odjaviti se možete kad god poželite.</p>
-</section>
+  <h2>Što su kolačići?</h2>
+  <p>Kolačići (engl. <em>cookies</em>) su male tekstualne datoteke koje web stranica sprema na vaše računalo ili mobilni uređaj prilikom posjeta. Kolačići omogućuju stranici da zapamti vaše radnje i postavke (poput prijave ili jezika) kroz određeno razdoblje, kako ih ne biste morali ponovno unositi pri svakom posjetu.</p>
+
+  <h2>Koje kolačiće koristimo?</h2>
+  <p><strong>Nužni kolačići</strong> — potrebni su za osnovno funkcioniranje stranice, poput prijave u korisnički portal ili pamćenja sesije. Bez njih stranica ne može ispravno raditi, pa se za njih ne traži privola.</p>
+  <p><strong>Funkcionalni kolačići</strong> — pamte vaše odabire (npr. postavke prikaza) radi boljeg korisničkog iskustva.</p>
+  <p><strong>Analitički kolačići</strong> — mogu se koristiti za anonimno mjerenje posjećenosti i načina korištenja stranice, isključivo radi poboljšanja sadržaja i usluga. Ovi se kolačići koriste samo uz vašu privolu.</p>
+  <p>Ova web stranica ne koristi marketinške kolačiće niti kolačiće za prikazivanje oglasa.</p>
+
+  <h2>Kolačići trećih strana</h2>
+  <p>Stranica može sadržavati poveznice na vanjske usluge (npr. Instagram, Facebook, servisi za reprodukciju videa). Ako ih otvorite, te usluge mogu postaviti vlastite kolačiće prema svojim pravilima privatnosti, na koja mi nemamo utjecaj. Preporučujemo da pročitate njihova pravila privatnosti.</p>
+
+  <h2>Kako upravljati kolačićima?</h2>
+  <p>Kolačiće možete u svakom trenutku obrisati ili blokirati u postavkama svog preglednika. Imajte na umu da blokiranje nužnih kolačića može utjecati na ispravno funkcioniranje pojedinih dijelova stranice (npr. prijavu u korisnički portal).</p>
+  <p>Upute za upravljanje kolačićima u najčešćim preglednicima:</p>
+  <ul style="margin:0 0 18px 22px;">
+    <li>Google Chrome — Postavke → Privatnost i sigurnost → Kolačići</li>
+    <li>Safari — Postavke → Privatnost</li>
+    <li>Mozilla Firefox — Postavke → Privatnost i sigurnost</li>
+    <li>Microsoft Edge — Postavke → Kolačići i dozvole za web-mjesta</li>
+  </ul>
+
+  <h2>Promjene pravila kolačića</h2>
+  <p>Ova Pravila kolačića mogu se izmijeniti ili dopuniti u bilo kojem trenutku objavljivanjem izmijenjenog teksta na web stranici. Izmjene stupaju na snagu odmah po objavi.</p>
+
+  <h2>Kontakt</h2>
+  <p>Za sva pitanja vezana uz korištenje kolačića i zaštitu osobnih podataka: <a href="mailto:info@petrapavlek.com" style="color:var(--teal);">info@petrapavlek.com</a></p>
+  <p>Više o obradi osobnih podataka pročitajte u <a href="privatnost.html" style="color:var(--teal);text-decoration:underline;">Pravilima privatnosti</a>.</p>
+
+</article>
 
 <footer>
   <div class="wrap">
@@ -84,45 +99,6 @@
     <div class="copy">© 2026 Petra Pavlek. Sva prava pridržana.</div>
   </div>
 </footer>
-
-<script>
-(function(){
-  var el = document.getElementById('posts');
-
-  function render(posts){
-    if (!posts || !posts.length) {
-      el.innerHTML = '<p style="text-align:center;">Uskoro stižu prve objave.</p>';
-      return;
-    }
-    el.innerHTML = '';
-    posts.forEach(function(p){
-      var a = document.createElement('a');
-      a.className = 'post-card';
-      a.href = 'post.html?slug=' + p.slug;
-      var img = p.cover ? '<div class="post-card-img" style="background-image:url(\'' + p.cover + '\')"></div>' : '';
-      a.innerHTML = img +
-        '<div class="post-card-body">' +
-          '<div class="tag">' + (p.date || 'Blog') + '</div>' +
-          '<h2></h2><p></p>' +
-          '<span class="btn-outline">Pročitaj članak</span>' +
-        '</div>';
-      a.querySelector('h2').textContent = p.title;
-      a.querySelector('p').textContent = p.excerpt || '';
-      el.appendChild(a);
-    });
-  }
-
-  fetch('/api/blog', {cache:'no-store'})
-    .then(function(r){ if (!r.ok) throw 0; return r.json(); })
-    .then(render)
-    .catch(function(){
-      fetch('posts/index.json', {cache:'no-store'})
-        .then(function(r){ if (!r.ok) throw 0; return r.json(); })
-        .then(render)
-        .catch(function(){ render([]); });
-    });
-})();
-</script>
 
 </body>
 </html>
