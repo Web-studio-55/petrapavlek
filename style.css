@@ -1,6 +1,6 @@
 :root{
-  --teal:#8f7a68;
-  --teal-dark:#73614f;
+  --teal:#a97f66;
+  --teal-dark:#8c6650;
   --dark:#3b312b;
   --grey:#6b5f56;
   --light:#faf6f0;
@@ -17,8 +17,8 @@ a{text-decoration:none;color:inherit;}
 /* ---------- Header ---------- */
 header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid #f1e9e0;}
 .nav{display:flex;align-items:center;justify-content:space-between;height:76px;}
-.logo{font-family:'Lora',Georgia,serif;font-size:22px;font-weight:700;letter-spacing:.14em;color:var(--dark);text-transform:uppercase;white-space:nowrap;}
-.logo span{color:var(--teal);}
+.logo{display:flex;align-items:center;}
+.logo img{height:48px;width:auto;display:block;}
 nav ul{display:flex;gap:24px;list-style:none;align-items:center;}
 nav a{font-size:12px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--dark);transition:color .2s;white-space:nowrap;}
 nav li{position:relative;}
@@ -44,7 +44,8 @@ nav a:hover,nav a.active{color:var(--teal);}
 .hero-photo{display:flex;justify-content:center;padding:60px 0;}
 .portrait{position:relative;width:min(400px,86%);}
 .portrait img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center 22%;border-radius:210px 210px 18px 18px;box-shadow:0 30px 60px rgba(74,52,38,.22);position:relative;z-index:1;}
-.portrait::before{content:'';position:absolute;top:-16px;right:-16px;bottom:16px;left:16px;border:2px solid rgba(143,122,104,.45);border-radius:210px 210px 18px 18px;}
+.portrait::before{content:'';position:absolute;top:-16px;right:-16px;bottom:16px;left:16px;border:2px solid rgba(190,144,120,.5);border-radius:210px 210px 18px 18px;}
+.portrait img.butterfly{position:absolute;top:-44px;left:-52px;width:120px;height:auto;aspect-ratio:auto;object-fit:contain;box-shadow:none;border-radius:0;z-index:2;}
 .btn{display:inline-block;background:var(--teal);color:#fff;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:16px 36px;border-radius:100px;transition:background .2s,transform .2s;border:none;cursor:pointer;font-family:inherit;}
 .btn:hover{background:var(--teal-dark);transform:translateY(-2px);}
 
