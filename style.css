@@ -45,7 +45,7 @@ nav a:hover,nav a.active{color:var(--teal);}
 .portrait{position:relative;width:min(400px,86%);}
 .portrait img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center 22%;border-radius:210px 210px 18px 18px;box-shadow:0 30px 60px rgba(74,52,38,.22);position:relative;z-index:1;}
 .portrait::before{content:'';position:absolute;top:-16px;right:-16px;bottom:16px;left:16px;border:2px solid rgba(190,144,120,.5);border-radius:210px 210px 18px 18px;}
-.portrait img.butterfly{position:absolute;top:-46px;left:2px;width:120px;height:auto;aspect-ratio:auto;object-fit:contain;box-shadow:none;border-radius:0;z-index:2;}
+.portrait img.butterfly{position:absolute;top:-24px;left:34px;width:60px;height:auto;aspect-ratio:auto;object-fit:contain;box-shadow:none;border-radius:0;z-index:2;}
 .btn{display:inline-block;background:var(--teal);color:#fff;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:16px 36px;border-radius:100px;transition:background .2s,transform .2s;border:none;cursor:pointer;font-family:inherit;}
 .btn:hover{background:var(--teal-dark);transform:translateY(-2px);}
 
