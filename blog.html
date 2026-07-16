@@ -117,11 +117,11 @@
     });
   }
 
-  fetch('/api/blog', {cache:'no-store'})
+  fetch('posts/index.json', {cache:'no-store'})
     .then(function(r){ if (!r.ok) throw 0; return r.json(); })
     .then(render)
     .catch(function(){
-      fetch('posts/index.json', {cache:'no-store'})
+      fetch('/api/blog', {cache:'no-store'})
         .then(function(r){ if (!r.ok) throw 0; return r.json(); })
         .then(render)
         .catch(function(){ render([]); });

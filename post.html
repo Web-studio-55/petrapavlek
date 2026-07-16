@@ -101,11 +101,11 @@
     el.appendChild(back);
   }
 
-  fetch('/api/blog?slug=' + slug, {cache:'no-store'})
+  fetch('posts/' + slug + '.json', {cache:'no-store'})
     .then(function(r){ if (!r.ok) throw 0; return r.json(); })
     .then(render)
     .catch(function(){
-      fetch('posts/' + slug + '.json', {cache:'no-store'})
+      fetch('/api/blog?slug=' + slug, {cache:'no-store'})
         .then(function(r){ if (!r.ok) throw 0; return r.json(); })
         .then(render)
         .catch(function(){ el.innerHTML = '<p>Objava nije pronađena. <a href="blog.html" style="color:var(--teal);">Natrag na blog</a></p>'; });
