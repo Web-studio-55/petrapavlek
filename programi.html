@@ -16,7 +16,12 @@
     <a href="index.html" class="logo">Petra <span>Pavlek</span></a>
     <nav id="nav">
       <ul>
-        <li><a href="programi.html" class="active">Programi</a></li>
+        <li class="has-dropdown"><a href="programi.html" class="active">Programi</a>
+          <ul class="dropdown">
+            <li><a href="programi.html#ceo">CEO — Chief Emotional Officer</a></li>
+            <li><a href="programi.html#safe-space">Safe Space</a></li>
+          </ul>
+        </li>
         <li><a href="omeni.html">O meni</a></li>
         <li><a href="konstelacije.html">Sistemske konstelacije</a></li>
         <li><a href="blog.html">Blog</a></li>
@@ -45,7 +50,7 @@
 <section class="programs">
   <div class="wrap">
 
-    <div class="program">
+    <div class="program" id="ceo" style="scroll-margin-top:90px;">
       <div class="program-img" style="background-image:url('img/ceo.jpg')"></div>
       <div class="program-body">
         <div class="tag">Program za muškarce</div>
@@ -55,7 +60,7 @@
       </div>
     </div>
 
-    <div class="program">
+    <div class="program" id="safe-space" style="scroll-margin-top:90px;">
       <div class="program-img" style="background-image:url('img/razgovor.jpg')"></div>
       <div class="program-body">
         <div class="tag">Razgovorni program</div>
