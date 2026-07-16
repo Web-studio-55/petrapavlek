@@ -157,7 +157,7 @@ nav a:hover,nav a.active{color:var(--teal);}
 .newsletter h2{font-size:clamp(24px,3vw,32px);font-weight:500;margin-bottom:14px;}
 .newsletter p{max-width:560px;margin:0 auto 34px;}
 .nl-form{display:flex;gap:12px;max-width:640px;margin:0 auto;}
-.nl-note{font-size:12.5px;color:#8a8888;margin-top:18px;}
+.newsletter p.nl-note,.nl-note{font-size:12.5px;color:#8a8888;margin:34px auto 0;}
 .nl-note a{color:#8a8888;}
 .nl-form input{flex:1;padding:15px 22px;border:1px solid #d0d5d2;border-radius:100px;font-family:inherit;font-size:15px;outline:none;}
 .nl-form input:focus{border-color:var(--teal);}
