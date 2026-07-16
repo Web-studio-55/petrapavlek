@@ -51,7 +51,7 @@ nav a:hover,nav a.active{color:var(--teal);}
 
 /* ---------- Page hero (podstranice, bez slike) ---------- */
 .page-hero{background:radial-gradient(120% 140% at 75% 20%, #fffefc 0%, #faf5ee 50%, #f1e9dd 100%);text-align:center;padding:90px 24px;}
-.page-hero h1{font-size:clamp(32px,4.5vw,52px);font-weight:500;margin-bottom:16px;}
+.page-hero h1{font-size:clamp(26px,3.4vw,38px);font-weight:500;margin-bottom:16px;}
 .page-hero p{max-width:640px;margin:0 auto;font-size:18px;font-weight:300;}
 .page-hero p.lead{font-family:'Lora',Georgia,serif;font-style:italic;font-size:clamp(18px,2.4vw,22px);color:var(--teal-dark);max-width:680px;line-height:1.6;}
 
