@@ -90,6 +90,8 @@ nav a:hover,nav a.active{color:var(--teal);}
 .price small{font-size:13px;color:var(--grey);font-family:'Open Sans',sans-serif;font-weight:400;display:block;margin-top:2px;}
 .shop-body .btn{padding:13px 28px;font-size:12px;align-self:center;}
 .shop-more{text-align:center;margin-top:44px;display:flex;flex-direction:column;gap:14px;align-items:center;}
+.shop-more .btn{background:#f5ebe1;border-color:#e0cfba;}
+.shop-more .btn:hover{background:#e9d8c5;}
 
 /* ---------- CTA traka ---------- */
 .choose{background:#f5ebe1;color:var(--grey);text-align:center;padding:96px 24px;}
