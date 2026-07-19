@@ -177,7 +177,7 @@ nav a.active:not(.nav-cta){color:var(--dark);text-decoration:underline;text-unde
 .nl-form button:hover{background:#f5ebe1;}
 
 /* ---------- Footer ---------- */
-footer{background:#f5ebe1;color:var(--grey);padding:70px 0 40px;font-size:14px;}
+footer{background:#f9f2ea;color:var(--grey);padding:70px 0 40px;font-size:14px;}
 .footer-top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:40px;padding-bottom:44px;border-bottom:1px solid #e2d3c2;}
 .footer-brand{font-family:'Lora',Georgia,serif;font-size:20px;letter-spacing:.14em;text-transform:uppercase;color:var(--dark);margin-bottom:10px;}
 .socials{display:flex;gap:12px;margin-top:18px;}
