@@ -60,7 +60,7 @@ nav a:hover,nav a.active{color:var(--dark);}
 .intro h2{font-size:clamp(26px,3.5vw,38px);max-width:760px;margin:0 auto 28px;font-weight:500;}
 .intro h2 em{color:var(--grey);font-style:italic;}
 .intro p{max-width:720px;margin:0 auto 20px;}
-.rule{width:64px;height:3px;background:var(--teal);margin:0 auto 34px;border-radius:2px;}
+.rule{width:64px;height:1px;background:var(--teal);margin:0 auto 34px;border-radius:2px;}
 
 /* ---------- Programi ---------- */
 .programs{padding:20px 0 40px;}
