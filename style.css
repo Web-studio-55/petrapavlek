@@ -118,7 +118,7 @@ nav a:hover,nav a.active{color:var(--teal);}
 .benefit-grid{display:flex;flex-wrap:wrap;gap:24px;justify-content:center;}
 .benefit{background:#fff;border-radius:18px;padding:36px 32px;box-shadow:0 6px 24px rgba(74,52,38,.06);flex:0 1 352px;transition:transform .25s,box-shadow .25s;}
 .benefit:hover{transform:translateY(-4px);box-shadow:0 14px 34px rgba(74,52,38,.12);}
-.benefit h3{font-size:16px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--teal);margin-bottom:12px;}
+.benefit h3{font-size:16px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--dark);margin-bottom:12px;}
 .benefit h3::before{content:'';display:block;width:34px;height:3px;background:var(--teal);border-radius:2px;margin-bottom:14px;}
 .benefit p{font-size:14.5px;}
 
