@@ -280,3 +280,7 @@ footer{background:#f9f2ea;color:var(--grey);padding:70px 0 40px;font-size:14px;}
 .om-cards .t-card{background:#fff;}
 .om .leptir{width:72px;display:block;margin:0 auto 22px;opacity:.9;}
 @media (max-width:900px){.om-cards{grid-template-columns:1fr;}}
+
+/* nit koja povezuje sekcije na O meni */
+.om h2::before{content:'';display:block;width:1px;height:54px;margin:0 auto 28px;background:linear-gradient(180deg,rgba(201,171,142,0),#c9ab8e);}
+.om .leptir + h2::before{display:none;}
