@@ -267,3 +267,16 @@ footer{background:#f9f2ea;color:var(--grey);padding:70px 0 40px;font-size:14px;}
   .ways-grid{grid-template-columns:repeat(2,1fr);}
   .t-grid{grid-template-columns:1fr;}
 }
+
+/* ---- o meni v2 ---- */
+.om{padding:84px 24px;}
+.om .inner{max-width:760px;margin:0 auto;}
+.om h2{text-align:center;color:var(--dark);font-size:clamp(20px,2.8vw,29px);font-weight:500;margin-bottom:34px;}
+.om p{margin-bottom:18px;}
+.om-light{background:var(--light);}
+.om-band{background:#f5ebe1;}
+.om-moments{text-align:center;font-family:'Lora',Georgia,serif;font-style:italic;color:var(--dark);font-size:18px;line-height:2.1;margin-bottom:28px;}
+.om-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;max-width:1020px;margin:38px auto;}
+.om-cards .t-card{background:#fff;}
+.om .leptir{width:72px;display:block;margin:0 auto 22px;opacity:.9;}
+@media (max-width:900px){.om-cards{grid-template-columns:1fr;}}
