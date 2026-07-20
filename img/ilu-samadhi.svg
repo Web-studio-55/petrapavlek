@@ -1,15 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" stroke="#a97e58" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 <circle cx="100" cy="100" r="88"/>
 <circle cx="99" cy="101" r="91" opacity=".45"/>
+<circle cx="101" cy="99" r="85" opacity=".25"/>
 
-<circle cx="100" cy="60" r="13"/>
-<path d="M72,140 C74,106 86,88 100,86 C114,88 126,106 128,140"/>
-<path d="M107,104 c2,5 -3,10 -8,8 c-6,-2 -6,-10 -1,-13 c7,-4 15,2 14,10"/>
-<path d="M74,104 C64,101 56,99 46,99" opacity=".85"/>
-<path d="M77,117 C67,120 59,124 51,129" opacity=".85"/>
-<path d="M80,90 C72,83 64,77 57,71" opacity=".85"/>
-<path d="M126,104 C136,101 144,99 154,99" opacity=".85"/>
-<path d="M123,117 C133,120 141,124 149,129" opacity=".85"/>
-<path d="M120,90 C128,83 136,77 143,71" opacity=".85"/>
+<circle cx="100" cy="58" r="13"/>
+<path d="M70,142 C73,105 85,87 100,85 C115,87 127,105 130,142"/>
+<path d="M107,103 c3,5 -1,11 -7,11 c-7,0 -10,-8 -5,-13 c6,-6 17,-2 16,7"/>
+<path d="M72,98 C61,93 51,93 41,96" opacity=".85"/>
+<path d="M74,113 C63,114 53,119 45,126" opacity=".85"/>
+<path d="M78,85 C68,78 61,70 55,61" opacity=".85"/>
+<path d="M87,73 C82,63 79,54 78,44" opacity=".85"/>
+<path d="M128,98 C139,93 149,93 159,96" opacity=".85"/>
+<path d="M126,113 C137,114 147,119 155,126" opacity=".85"/>
+<path d="M122,85 C132,78 139,70 145,61" opacity=".85"/>
+<path d="M113,73 C118,63 121,54 122,44" opacity=".85"/>
+<path d="M80,132 C73,140 68,148 64,156" opacity=".85"/>
+<path d="M120,132 C127,140 132,148 136,156" opacity=".85"/>
 
 </svg>

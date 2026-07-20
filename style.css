@@ -296,5 +296,5 @@ footer{background:#f9f2ea;color:var(--grey);padding:70px 0 40px;font-size:14px;}
 .way p{font-size:14px;color:var(--grey);line-height:1.7;margin:12px auto 16px;max-width:240px;}
 .way .more{font-size:12px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--dark);text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:1px;text-decoration-color:#c9ab8e;}
 .way:hover .more{text-decoration-color:var(--dark);}
-.way .circle.illu{border:none;box-shadow:none;outline:none;background:transparent;overflow:visible;}
+.way .circle.illu{border:none;box-shadow:none;background:transparent;overflow:visible;outline:1px solid rgba(185,163,144,.5);outline-offset:8px;}
 .way .circle.illu img{object-fit:contain;}
