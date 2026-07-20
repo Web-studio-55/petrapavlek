@@ -29,8 +29,8 @@ nav li.has-dropdown:hover > .dropdown{display:block;}
 .dropdown a{display:block;padding:10px 20px;font-size:13px;font-weight:600;letter-spacing:0;text-transform:none;color:var(--dark);white-space:nowrap;}
 .dropdown a:hover{background:var(--light);color:var(--dark);}
 nav a:hover{color:var(--dark);}
-nav a:hover:not(.nav-cta):not(.dropdown a){text-decoration:underline;text-underline-offset:8px;text-decoration-thickness:1px;text-decoration-color:#c9ab8e;}
-nav a.active:not(.nav-cta){color:var(--dark);text-decoration:underline;text-underline-offset:8px;text-decoration-thickness:1px;text-decoration-color:#c9ab8e;}
+nav a:hover:not(.nav-cta):not(.dropdown a){text-decoration:underline;text-underline-offset:8px;text-decoration-thickness:1px;text-decoration-color:#ddc9b2;}
+nav a.active:not(.nav-cta){color:var(--dark);text-decoration:underline;text-underline-offset:8px;text-decoration-thickness:1px;text-decoration-color:#ddc9b2;}
 nav ul:hover a.active:not(.nav-cta):not(:hover){text-decoration:none;}
 .nav-cta{background:#fffdfa;color:var(--dark) !important;padding:11px 22px;border-radius:100px;border:1px solid #e3d3c1;}
 .nav-cta:hover{background:#f5ebe1;}
