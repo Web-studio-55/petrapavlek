@@ -108,7 +108,7 @@ nav ul:hover a.active:not(.nav-cta):not(:hover){text-decoration:none;}
 /* ---------- Sadržaj s slikom (konstelacije) ---------- */
 .split{padding:90px 0;}
 .split-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;}
-.split-grid img{border-radius:18px;box-shadow:0 14px 34px rgba(74,52,38,.12);width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 30%;}
+.split-grid img{border-radius:18px;box-shadow:0 14px 34px rgba(74,52,38,.12);width:100%;aspect-ratio:1/1;object-fit:cover;object-position:center 28%;}
 .split-text h2{font-size:clamp(24px,3vw,34px);font-weight:500;margin-bottom:18px;}
 .split-text p{margin-bottom:16px;}
 
