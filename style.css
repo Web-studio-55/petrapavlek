@@ -269,9 +269,9 @@ footer{background:#f9f2ea;color:var(--grey);padding:70px 0 40px;font-size:14px;}
 }
 
 /* ---- o meni v2 ---- */
-.om{padding:44px 24px;}
+.om{padding:26px 24px;}
 .om .inner{max-width:760px;margin:0 auto;}
-.om h2{text-align:center;color:var(--dark);font-size:clamp(20px,2.8vw,29px);font-weight:500;margin-bottom:34px;}
+.om h2{text-align:center;color:var(--dark);font-size:clamp(20px,2.8vw,29px);font-weight:500;margin-bottom:26px;}
 .om p{margin-bottom:18px;}
 .om-light{background:var(--light);}
 .om-band{background:#f5ebe1;}
@@ -282,7 +282,7 @@ footer{background:#f9f2ea;color:var(--grey);padding:70px 0 40px;font-size:14px;}
 @media (max-width:900px){.om-cards{grid-template-columns:1fr;}}
 
 /* nit koja povezuje sekcije na O meni */
-.om h2::before{content:'';display:block;width:1px;height:34px;margin:0 auto 20px;background:linear-gradient(180deg,rgba(201,171,142,0),#c9ab8e);}
+.om h2::before{content:'';display:block;width:1px;height:24px;margin:0 auto 14px;background:linear-gradient(180deg,rgba(201,171,142,0),#c9ab8e);}
 .om .leptir + h2::before{display:none;}
 .om .om-photo{width:240px;aspect-ratio:3/4;object-fit:cover;border-radius:150px 150px 14px 14px;display:block;margin:0 auto 30px;box-shadow:0 10px 28px rgba(74,52,38,.12);border:1px solid rgba(185,163,144,.35);}
 .om .om-photo + h2::before{display:none;}
@@ -319,8 +319,8 @@ footer{background:#f9f2ea;color:var(--grey);padding:70px 0 40px;font-size:14px;}
   .t-card p{font-size:15px;}
   .home-blog{padding:56px 0;}
   .home-blog h2{margin-bottom:36px;}
-  .om{padding:30px 20px;}
-  .om h2::before{height:24px;margin-bottom:14px;}
+  .om{padding:22px 20px;}
+  .om h2::before{height:20px;margin-bottom:12px;}
   .om-moments{font-size:16px;line-height:1.9;}
   .om .om-photo{width:200px;}
   .split-grid.split-small img{max-width:260px;}
