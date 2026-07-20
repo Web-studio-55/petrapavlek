@@ -284,3 +284,5 @@ footer{background:#f9f2ea;color:var(--grey);padding:70px 0 40px;font-size:14px;}
 /* nit koja povezuje sekcije na O meni */
 .om h2::before{content:'';display:block;width:1px;height:54px;margin:0 auto 28px;background:linear-gradient(180deg,rgba(201,171,142,0),#c9ab8e);}
 .om .leptir + h2::before{display:none;}
+.om .om-photo{width:240px;aspect-ratio:3/4;object-fit:cover;border-radius:150px 150px 14px 14px;display:block;margin:0 auto 30px;box-shadow:0 10px 28px rgba(74,52,38,.12);border:1px solid rgba(185,163,144,.35);}
+.om .om-photo + h2::before{display:none;}
