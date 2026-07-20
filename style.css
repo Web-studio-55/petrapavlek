@@ -309,7 +309,7 @@ footer{background:#f9f2ea;color:var(--grey);padding:70px 0 40px;font-size:14px;}
   .ways .sub{margin:-30px auto 40px;padding:0 20px;}
   .ways h2{margin-bottom:40px;padding:0 20px;}
   .ways-grid{grid-template-columns:repeat(2,1fr);gap:30px 14px;padding:0 14px;}
-  .way .circle{width:122px;}
+  .way .circle{width:122px;height:122px;}
   .way h3{font-size:11.5px;}
   .way p{font-size:13px;max-width:165px;margin:9px auto 11px;}
   .way .more{font-size:11px;}
