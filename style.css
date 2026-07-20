@@ -241,3 +241,29 @@ footer{background:#f9f2ea;color:var(--grey);padding:70px 0 40px;font-size:14px;}
   .benefits{padding:60px 0;}
   .post-card-body{padding:28px 22px;}
 }
+
+/* ---- home v2 ---- */
+.butterfly-panel{background:#f5ebe1;border-radius:18px;min-height:340px;display:flex;align-items:center;justify-content:center;}
+.butterfly-panel img{width:150px;opacity:.92;box-shadow:none;border-radius:0;}
+.ways{padding:90px 0;background:var(--light);text-align:center;}
+.ways h2{color:var(--dark);font-size:clamp(20px,2.8vw,29px);font-weight:500;margin-bottom:52px;}
+.ways-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:32px;max-width:1020px;margin:0 auto;padding:0 24px;}
+.way{display:block;}
+.way .circle{width:168px;height:168px;max-width:100%;aspect-ratio:1;border-radius:50%;overflow:hidden;margin:0 auto 20px;box-shadow:0 8px 26px rgba(74,52,38,.10);border:1px solid rgba(185,163,144,.35);transition:transform .25s;}
+.way:hover .circle{transform:translateY(-5px);}
+.way .circle img{width:100%;height:100%;object-fit:cover;display:block;}
+.way h3{font-size:13px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--dark);}
+.testimonials{padding:90px 0;background:#fff;text-align:center;}
+.testimonials h2{color:var(--dark);font-size:clamp(20px,2.8vw,29px);font-weight:500;margin-bottom:52px;}
+.t-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;}
+.t-card{background:var(--light);border-radius:18px;padding:36px 30px;text-align:left;}
+.t-card p{font-family:'Lora',Georgia,serif;font-style:italic;color:var(--dark);font-size:16px;line-height:1.75;margin-bottom:18px;}
+.t-name{font-size:12px;font-weight:700;letter-spacing:.18em;color:var(--grey);text-transform:uppercase;}
+.home-blog{padding:90px 0;background:#fff;}
+.home-blog h2{text-align:center;color:var(--dark);font-size:clamp(20px,2.8vw,29px);font-weight:500;margin-bottom:52px;}
+.home-blog .wrap{display:grid;gap:28px;}
+.ws-meta{font-size:13px;font-weight:600;letter-spacing:.05em;color:var(--grey);margin-bottom:16px;}
+@media (max-width:900px){
+  .ways-grid{grid-template-columns:repeat(2,1fr);}
+  .t-grid{grid-template-columns:1fr;}
+}
