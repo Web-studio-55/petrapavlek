@@ -347,3 +347,22 @@ footer{background:#f9f2ea;color:var(--grey);padding:70px 0 40px;font-size:14px;}
 .onav a:hover{color:var(--dark);text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:1px;text-decoration-color:#c9ab8e;}
 .os-photo{width:280px;aspect-ratio:1;border-radius:50%;object-fit:cover;object-position:center 25%;display:block;margin:0 auto 34px;outline:1px solid rgba(185,163,144,.5);outline-offset:8px;box-shadow:0 10px 28px rgba(74,52,38,.12);}
 @media (max-width:560px){.os{padding:34px 20px;}.bigquote{padding:44px 20px;}.os-photo{width:210px;}.onav{gap:10px 20px;}}
+
+/* ---- samadhi v2 ---- */
+.os ul.ls{margin:0 0 20px;padding:0;list-style:none;}
+.os ul.ls li{position:relative;padding-left:24px;margin-bottom:9px;color:var(--grey);}
+.os ul.ls li::before{content:'';position:absolute;left:0;top:.68em;width:10px;height:1px;background:var(--teal);}
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:44px;max-width:1140px;margin:0 auto;padding:0 24px;text-align:left;}
+.three .col h3{display:flex;align-items:flex-start;gap:12px;color:var(--dark);font-size:20px;font-weight:600;line-height:1.35;margin-bottom:18px;font-family:'Lora',Georgia,serif;}
+.three .col h3 svg{flex:0 0 30px;width:30px;height:30px;stroke:#b98a5e;fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;margin-top:2px;}
+.three .col p{font-size:14.5px;margin-bottom:14px;}
+.three .col ul.ls li{font-size:14.5px;}
+.pi-card{background:#fff;border:1px solid #eadbc9;border-radius:18px;padding:34px 36px;max-width:640px;margin:0 auto;}
+.pi-row{display:grid;grid-template-columns:180px 1fr;gap:12px;padding:9px 0;border-bottom:1px solid #f5ecdf;font-size:15px;}
+.pi-row:last-of-type{border-bottom:none;}
+.pi-row .k{color:var(--grey);}
+.pi-row .v{color:var(--dark);font-weight:600;}
+.steps{max-width:760px;margin:0 auto;}
+.steps h3{color:var(--dark);font-size:19px;font-weight:600;margin:34px 0 12px;}
+@media (max-width:900px){.three{grid-template-columns:1fr;gap:36px;}}
+@media (max-width:560px){.pi-card{padding:26px 22px;}.pi-row{grid-template-columns:1fr;gap:2px;padding:10px 0;}}
