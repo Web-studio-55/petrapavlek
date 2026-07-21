@@ -330,3 +330,20 @@ footer{background:#f9f2ea;color:var(--grey);padding:70px 0 40px;font-size:14px;}
   .shop-body h3{font-size:17px;}
   .program-body{padding:34px 24px;}
 }
+
+/* ---- o meni v3 ---- */
+.os{padding:48px 24px;}
+.os .inner{max-width:760px;margin:0 auto;}
+.os .tag2{font-size:12px;font-weight:700;letter-spacing:.25em;text-transform:uppercase;color:var(--teal);margin-bottom:12px;}
+.os h2{color:var(--dark);font-size:clamp(21px,2.6vw,28px);font-weight:500;margin-bottom:22px;}
+.os h3{color:var(--dark);font-size:18px;font-weight:600;margin:36px 0 14px;}
+.os p{margin-bottom:18px;}
+.os p.pl{font-family:'Lora',Georgia,serif;font-size:19px;color:var(--dark);font-weight:500;margin:26px 0 12px;line-height:1.6;}
+.os p.trip{font-family:'Lora',Georgia,serif;font-style:italic;color:var(--dark);font-size:17px;margin-bottom:8px;}
+.bigquote{padding:56px 24px;text-align:center;background:var(--light);}
+.bigquote blockquote{font-family:'Lora',Georgia,serif;font-style:italic;font-size:clamp(20px,2.6vw,27px);color:var(--dark);max-width:820px;margin:0 auto;line-height:1.6;font-weight:400;}
+.onav{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 30px;padding:20px 24px;border-top:1px solid #f1e7da;border-bottom:1px solid #f1e7da;background:#fffdfa;}
+.onav a{font-size:12px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--grey);}
+.onav a:hover{color:var(--dark);text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:1px;text-decoration-color:#c9ab8e;}
+.os-photo{width:280px;aspect-ratio:1;border-radius:50%;object-fit:cover;object-position:center 25%;display:block;margin:0 auto 34px;outline:1px solid rgba(185,163,144,.5);outline-offset:8px;box-shadow:0 10px 28px rgba(74,52,38,.12);}
+@media (max-width:560px){.os{padding:34px 20px;}.bigquote{padding:44px 20px;}.os-photo{width:210px;}.onav{gap:10px 20px;}}
