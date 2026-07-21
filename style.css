@@ -366,3 +366,7 @@ footer{background:#f9f2ea;color:var(--grey);padding:70px 0 40px;font-size:14px;}
 .steps h3{color:var(--dark);font-size:19px;font-weight:600;margin:34px 0 12px;}
 @media (max-width:900px){.three{grid-template-columns:1fr;gap:36px;}}
 @media (max-width:560px){.pi-card{padding:26px 22px;}.pi-row{grid-template-columns:1fr;gap:2px;padding:10px 0;}}
+.icon-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:30px 18px;margin:30px 0 14px;text-align:center;}
+.icon-grid .ig img{width:52px;height:52px;object-fit:contain;display:block;margin:0 auto 12px;}
+.icon-grid .ig div{font-size:13.5px;color:var(--grey);line-height:1.55;}
+@media (max-width:560px){.icon-grid{grid-template-columns:repeat(2,1fr);gap:26px 12px;}}
