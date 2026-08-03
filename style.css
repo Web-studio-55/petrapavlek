@@ -395,3 +395,12 @@ ul.ls.cols2{display:grid;grid-template-columns:1fr 1fr;gap:12px 34px;margin-bott
   .photo-band img{aspect-ratio:16/10;}
 }
 .map-embed{max-width:860px;margin:30px auto 0;border-radius:18px;overflow:hidden;border:1px solid #eee0d0;box-shadow:0 6px 24px rgba(74,52,38,.06);}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:26px;max-width:900px;margin:34px auto 0;}
+.duo .dcard{background:#fffdfa;border:1px solid #eee0d0;border-radius:18px;padding:38px 32px;text-align:center;display:flex;flex-direction:column;}
+.duo .dcard h3{color:var(--dark);font-size:20px;font-weight:600;margin-bottom:12px;}
+.duo .dcard .desc{font-size:14.5px;margin-bottom:20px;}
+.duo .dcard .drow{font-size:14.5px;color:var(--grey);padding:9px 0;border-top:1px solid #f1e7da;}
+.duo .dcard .drow b{color:var(--dark);font-weight:600;}
+.duo .dcard .dprice{font-family:'Lora',Georgia,serif;font-size:30px;color:var(--dark);margin:18px 0 20px;}
+.duo .dcard .btn{align-self:center;margin-top:auto;}
+@media (max-width:700px){.duo{grid-template-columns:1fr;}}
