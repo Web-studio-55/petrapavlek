@@ -370,3 +370,27 @@ footer{background:#f9f2ea;color:var(--grey);padding:70px 0 40px;font-size:14px;}
 .icon-grid .ig img{width:38px;height:38px;object-fit:contain;display:block;margin:0 auto 18px;}
 .icon-grid .ig div{font-size:13.5px;color:var(--grey);line-height:1.55;}
 @media (max-width:560px){.icon-grid{grid-template-columns:repeat(2,1fr);gap:26px 12px;}}
+
+/* ---- samadhi v2 ---- */
+.soft-panel{background:#f5ebe1;border-radius:18px;padding:42px 46px;max-width:860px;margin:0 auto;}
+.soft-panel .pl{margin-top:0;}
+ul.ls.cols2{display:grid;grid-template-columns:1fr 1fr;gap:12px 34px;margin-bottom:0;}
+.beliefs{text-align:center;font-family:'Lora',Georgia,serif;font-style:italic;color:var(--dark);font-size:17.5px;line-height:2.1;margin:20px 0 30px;}
+.num-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px 32px;margin:26px 0 30px;}
+.num-grid .n{display:flex;gap:16px;align-items:flex-start;}
+.num-grid .n b{font-family:'Lora',Georgia,serif;font-size:24px;font-weight:500;color:var(--teal);line-height:1.2;}
+.num-grid .n p{margin:2px 0 0;font-size:15px;}
+.steps-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;max-width:1020px;margin:34px auto 0;text-align:left;}
+.step-card{background:#fffdfa;border:1px solid #eee0d0;border-radius:18px;padding:32px 28px;}
+.step-card .num{font-family:'Lora',Georgia,serif;font-size:32px;color:var(--teal);margin-bottom:12px;}
+.step-card h4{color:var(--dark);font-size:17px;font-weight:600;margin-bottom:12px;}
+.step-card p{font-size:14.5px;margin-bottom:10px;}
+.photo-band{padding:26px 24px 70px;}
+.photo-band img{display:block;max-width:1020px;width:100%;margin:0 auto;aspect-ratio:21/9;object-fit:cover;border-radius:18px;box-shadow:0 14px 34px rgba(74,52,38,.12);}
+@media (max-width:700px){
+  ul.ls.cols2{grid-template-columns:1fr;}
+  .num-grid{grid-template-columns:1fr;}
+  .steps-grid{grid-template-columns:1fr;}
+  .soft-panel{padding:32px 26px;}
+  .photo-band img{aspect-ratio:16/10;}
+}
