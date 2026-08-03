@@ -404,3 +404,4 @@ ul.ls.cols2{display:grid;grid-template-columns:1fr 1fr;gap:12px 34px;margin-bott
 .duo .dcard .dprice{font-family:'Lora',Georgia,serif;font-size:30px;color:var(--dark);margin:18px 0 20px;}
 .duo .dcard .btn{align-self:center;margin-top:auto;}
 @media (max-width:700px){.duo{grid-template-columns:1fr;}}
+@media (min-width:701px){.duo .dcard .desc{min-height:76px;display:flex;align-items:center;justify-content:center;}}
