@@ -1,5 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="#966c4a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="#b08363" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+<defs>
+<filter id="h1" x="-15%" y="-15%" width="130%" height="130%"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.9"/></filter>
+<filter id="h2" x="-15%" y="-15%" width="130%" height="130%"><feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed="11" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2.4"/></filter>
+</defs>
+<g filter="url(#h1)">
 <path d="M16,42 c-4,-4 -6,-8 -6,-13 l0,-7.5 c0,-2 3,-2 3,0 l0,4.5 l0,-11 c0,-2 3,-2 3,0 l0,9 l0,-11.5 c0,-2 3,-2 3,0 l0,11.5 l0,-9.5 c0,-2 3,-2 3,0 l0,12 c2,-2.2 4.2,-3 5.2,-1.4 c0.9,1.4 -0.6,3 -2.1,5 c-2.6,3.4 -3.1,6 -3.1,11.9"/>
-
+</g>
+<g filter="url(#h2)" opacity=".38">
+<path d="M16,42 c-4,-4 -6,-8 -6,-13 l0,-7.5 c0,-2 3,-2 3,0 l0,4.5 l0,-11 c0,-2 3,-2 3,0 l0,9 l0,-11.5 c0,-2 3,-2 3,0 l0,11.5 l0,-9.5 c0,-2 3,-2 3,0 l0,12 c2,-2.2 4.2,-3 5.2,-1.4 c0.9,1.4 -0.6,3 -2.1,5 c-2.6,3.4 -3.1,6 -3.1,11.9"/>
+</g>
 </svg>

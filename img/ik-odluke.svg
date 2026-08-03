@@ -1,7 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="#966c4a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="#b08363" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+<defs>
+<filter id="h1" x="-15%" y="-15%" width="130%" height="130%"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.9"/></filter>
+<filter id="h2" x="-15%" y="-15%" width="130%" height="130%"><feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed="11" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2.4"/></filter>
+</defs>
+<g filter="url(#h1)">
 <line x1="24" y1="42" x2="24" y2="9"/>
 <path d="M20,11 h12.5 l4,3.5 l-4,3.5 h-12.5 Z"/>
 <path d="M28,23 h-12.5 l-4,3.5 l4,3.5 h12.5 Z"/>
-
+</g>
+<g filter="url(#h2)" opacity=".38">
+<line x1="24" y1="42" x2="24" y2="9"/>
+<path d="M20,11 h12.5 l4,3.5 l-4,3.5 h-12.5 Z"/>
+<path d="M28,23 h-12.5 l-4,3.5 l4,3.5 h12.5 Z"/>
+</g>
 </svg>

@@ -1,9 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="#966c4a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="#b08363" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+<defs>
+<filter id="h1" x="-15%" y="-15%" width="130%" height="130%"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.9"/></filter>
+<filter id="h2" x="-15%" y="-15%" width="130%" height="130%"><feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed="11" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2.4"/></filter>
+</defs>
+<g filter="url(#h1)">
 <path d="M24,11 c-1.8,-3 -6,-2.2 -6,1 c0,2.6 3.4,4.6 6,6.6 c2.6,-2 6,-4 6,-6.6 c0,-3.2 -4.2,-4 -6,-1 Z"/>
 <circle cx="14" cy="27" r="4"/>
 <path d="M8,42 c0,-6.5 2.7,-9.5 6,-9.5 c3.3,0 6,3 6,9.5"/>
 <circle cx="34" cy="27" r="4"/>
 <path d="M28,42 c0,-6.5 2.7,-9.5 6,-9.5 c3.3,0 6,3 6,9.5"/>
-
+</g>
+<g filter="url(#h2)" opacity=".38">
+<path d="M24,11 c-1.8,-3 -6,-2.2 -6,1 c0,2.6 3.4,4.6 6,6.6 c2.6,-2 6,-4 6,-6.6 c0,-3.2 -4.2,-4 -6,-1 Z"/>
+<circle cx="14" cy="27" r="4"/>
+<path d="M8,42 c0,-6.5 2.7,-9.5 6,-9.5 c3.3,0 6,3 6,9.5"/>
+<circle cx="34" cy="27" r="4"/>
+<path d="M28,42 c0,-6.5 2.7,-9.5 6,-9.5 c3.3,0 6,3 6,9.5"/>
+</g>
 </svg>
