@@ -407,14 +407,14 @@ ul.ls.cols2{display:grid;grid-template-columns:1fr 1fr;gap:12px 34px;margin-bott
 @media (min-width:701px){.duo .dcard .desc{min-height:76px;display:flex;align-items:center;justify-content:center;}}
 
 /* ---- hero s morem ---- */
-.hero.hero-more{background:url('img/hero-more.jpg') right center/cover no-repeat;}
+.hero.hero-more{background:url('img/hero-more.jpg?2') right top/cover no-repeat;}
 .hero.hero-more::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg, rgba(252,248,243,.94) 0%, rgba(252,248,243,.82) 30%, rgba(252,248,243,.35) 52%, rgba(252,248,243,0) 68%);}
 .hero.hero-more .wrap{position:relative;z-index:1;}
 .hero.hero-more .hero-text{max-width:560px;padding:120px 0 130px;position:relative;}
 .hero.hero-more .leptir-hero{position:absolute;top:78px;right:-96px;width:58px;opacity:.9;}
 @media (max-width:1080px){.hero.hero-more .leptir-hero{right:0;top:44px;}}
 @media (max-width:560px){
-  .hero.hero-more{background-position:72% center;}
+  .hero.hero-more{background-position:72% top;}
   .hero.hero-more::before{background:linear-gradient(90deg, rgba(252,248,243,.94) 0%, rgba(252,248,243,.72) 55%, rgba(252,248,243,.30) 100%);}
   .hero.hero-more .hero-text{padding:80px 0 90px;text-align:left;}
   .hero.hero-more .leptir-hero{width:44px;}
