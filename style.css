@@ -457,3 +457,10 @@ ul.ls.cols2{display:grid;grid-template-columns:1fr 1fr;gap:12px 34px;margin-bott
 .fw .bigquote blockquote{max-width:1040px;}
 .fw .quote-band p{max-width:860px;}
 .quote-band{background-image:url('img/par.jpg');}
+
+/* ---- samadhi v4: jace dizajnerske sekcije ---- */
+.icon-grid .ig{background:#fffdfa;border:1px solid #eee0d0;border-radius:16px;padding:28px 14px 24px;transition:transform .25s, box-shadow .25s;}
+.icon-grid .ig:hover{transform:translateY(-4px);box-shadow:0 10px 26px rgba(74,52,38,.08);}
+.beliefs-band{background:#f5ebe1;padding:64px 24px 70px;text-align:center;}
+.beliefs-band .bq-mark{font-family:'Lora',Georgia,serif;font-size:96px;line-height:.4;color:#c9ab8e;margin-bottom:34px;}
+.quote-band.mir{background-image:url('img/mir.jpg');background-position:center 60%;padding:110px 24px;}
