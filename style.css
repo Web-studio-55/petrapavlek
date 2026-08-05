@@ -449,3 +449,11 @@ ul.ls.cols2{display:grid;grid-template-columns:1fr 1fr;gap:12px 34px;margin-bott
 .duo .dcard.left h3{display:flex;align-items:center;gap:12px;font-size:18px;}
 .duo .dcard.left h3 svg{width:26px;height:26px;stroke:#a97e58;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex:none;}
 .duo .dcard.left p{font-size:14.5px;margin-bottom:12px;}
+
+/* full width tekst na samadhi */
+.fw .os .inner{max-width:1140px;}
+.fw .intro .wrap p{max-width:1040px;}
+.fw .intro .wrap .pl{max-width:1040px;}
+.fw .bigquote blockquote{max-width:1040px;}
+.fw .quote-band p{max-width:860px;}
+.quote-band{background-image:url('img/par.jpg');}
