@@ -476,3 +476,4 @@ ul.ls.cols2{display:grid;grid-template-columns:1fr 1fr;gap:12px 34px;margin-bott
 @media (max-width:900px){.check2{grid-template-columns:1fr;gap:28px;}}
 .hero.hero-more.hero-sam{background-image:url('img/hero-samadhi.jpg?2');background-size:auto 145%;background-position:0 30%;}
 .fw .article{max-width:1140px;}
+.hero.hero-more.hero-sp{background-image:url('img/hero-sp.jpg');background-position:right 40%;}
