@@ -464,3 +464,13 @@ ul.ls.cols2{display:grid;grid-template-columns:1fr 1fr;gap:12px 34px;margin-bott
 .beliefs-band{background:#f5ebe1;padding:64px 24px 70px;text-align:center;}
 .beliefs-band .bq-mark{font-family:'Lora',Georgia,serif;font-size:96px;line-height:.4;color:#c9ab8e;margin-bottom:34px;}
 .quote-band.mir{background-image:url('img/mir.jpg');background-position:center 60%;padding:110px 24px;}
+
+/* ---- check2: naslov lijevo, kvacice desno ---- */
+.check2{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;max-width:1140px;margin:0 auto;align-items:center;padding:0 24px;}
+.check2 h2{color:var(--dark);font-size:clamp(24px,2.8vw,34px);font-weight:500;margin-bottom:18px;}
+.check2 .sub-it{font-family:'Lora',Georgia,serif;font-style:italic;font-size:18px;color:var(--dark);}
+.checklist{list-style:none;border:1px solid #eee0d0;background:#fffdfa;border-radius:18px;padding:34px 38px;display:grid;gap:13px;margin:0;}
+.checklist .cl-lead{font-weight:600;color:var(--dark);margin-bottom:4px;}
+.checklist li{position:relative;padding-left:32px;font-size:15px;line-height:1.6;}
+.checklist li svg{position:absolute;left:0;top:3px;width:18px;height:18px;stroke:#a97e58;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;}
+@media (max-width:900px){.check2{grid-template-columns:1fr;gap:28px;}}
