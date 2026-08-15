@@ -461,8 +461,8 @@ ul.ls.cols2{display:grid;grid-template-columns:1fr 1fr;gap:12px 34px;margin-bott
 /* ---- samadhi v4: jace dizajnerske sekcije ---- */
 .icon-grid .ig{background:#fffdfa;border:1px solid #eee0d0;border-radius:16px;padding:28px 14px 24px;transition:transform .25s, box-shadow .25s;}
 .icon-grid .ig:hover{transform:translateY(-4px);box-shadow:0 10px 26px rgba(74,52,38,.08);}
-.beliefs-band{background:#f5ebe1;padding:64px 24px 70px;text-align:center;}
-.beliefs-band .bq-mark{font-family:'Lora',Georgia,serif;font-size:96px;line-height:.4;color:#c9ab8e;margin-bottom:34px;}
+.beliefs-band{background:#f5ebe1;padding:16px 24px 56px;text-align:center;}
+.beliefs-band .bq-mark{font-family:'Lora',Georgia,serif;font-size:96px;line-height:.4;color:#c9ab8e;margin-bottom:22px;}
 .quote-band.mir{background-image:url('img/mir.jpg');background-position:center 60%;padding:110px 24px;}
 
 /* ---- check2: naslov lijevo, kvacice desno ---- */
@@ -501,7 +501,7 @@ details.fold .fold-body{margin-top:16px;}
 .hf svg{width:24px;height:24px;stroke:#a97e58;fill:none;stroke-width:1.5;flex:none;stroke-linecap:round;stroke-linejoin:round;}
 
 /* ---- prepoznajes li se — traka s kvacicama u 2 stupca ---- */
-.check2-band{background:#f5ebe1;padding:72px 24px;}
+.check2-band{background:#f5ebe1;padding:64px 24px 28px;}
 .check2b{display:grid;grid-template-columns:.72fr 1.55fr;gap:60px;max-width:1260px;margin:0 auto;align-items:center;}
 .c2-left{position:relative;}
 .c2-left .flw{position:absolute;left:0;top:50%;transform:translateY(-50%);width:64px;height:170px;stroke:#c9a888;fill:none;stroke-width:1.3;stroke-linecap:round;opacity:.85;}
