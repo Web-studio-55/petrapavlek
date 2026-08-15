@@ -552,3 +552,9 @@ details.fold .fold-body{margin-top:16px;}
 .c2-lead2{font-size:15px;color:var(--dark);margin-bottom:22px;}
 .ck2.iky li{padding-left:38px;}
 .ck2.iky li img{position:absolute;left:0;top:0;width:25px;height:25px;}
+.c2-top{max-width:880px;margin:0 auto;text-align:center;}
+.c2-top h2{color:var(--dark);font-size:clamp(24px,2.6vw,32px);font-weight:500;margin-bottom:16px;}
+.c2-top .sub-it{font-family:'Lora',Georgia,serif;font-style:italic;font-size:17px;color:var(--dark);margin-bottom:14px;}
+.c2-top .c2-lead2{margin-bottom:8px;}
+.tema-grid{margin-top:34px;}
+.tema-grid .proc-card img{width:34px;height:34px;display:block;margin:0 auto 12px;}
