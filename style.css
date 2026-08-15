@@ -496,9 +496,9 @@ details.fold summary::-webkit-details-marker{display:none;}
 details.fold summary .lbl::after{content:'Prikaži više  ▾';}
 details.fold[open] summary .lbl::after{content:'Prikaži manje  ▴';}
 details.fold .fold-body{margin-top:16px;}
-.hero-feats{display:flex;gap:36px;margin-top:36px;flex-wrap:wrap;}
-.hf{display:flex;align-items:center;gap:12px;font-size:14px;color:var(--grey);}
-.hf svg{width:30px;height:30px;stroke:#a97e58;fill:none;stroke-width:1.5;flex:none;stroke-linecap:round;stroke-linejoin:round;}
+.hero-feats{display:flex;gap:30px;margin-top:32px;flex-wrap:wrap;}
+.hf{display:flex;align-items:center;gap:10px;font-size:11px;color:var(--grey);line-height:1.5;}
+.hf svg{width:24px;height:24px;stroke:#a97e58;fill:none;stroke-width:1.5;flex:none;stroke-linecap:round;stroke-linejoin:round;}
 
 /* ---- prepoznajes li se — traka s kvacicama u 2 stupca ---- */
 .check2-band{background:#f5ebe1;padding:72px 24px;}
