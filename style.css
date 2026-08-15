@@ -567,3 +567,10 @@ em{font-style:normal;}
 .icon-grid.plain .ig:hover{transform:none;box-shadow:none;}
 .quote-band.qb-sp{background-image:url('img/zavrsna-sp.jpg?2');background-position:left center;}
 .quote-band.qb-sp h2{margin-bottom:34px;}
+
+/* ---- iskustva: zvjezdice + avatar ---- */
+.t-card{background:#fffdfa;display:flex;flex-direction:column;box-shadow:0 6px 22px rgba(74,52,38,.05);}
+.t-stars{color:#c39a6b;font-size:15px;letter-spacing:4px;margin-bottom:16px;}
+.t-card p{margin-bottom:22px;}
+.t-person{display:flex;align-items:center;gap:12px;margin-top:auto;}
+.t-avatar{width:44px;height:44px;border-radius:50%;background:#f5ebe1;border:1px solid #eadbc9;display:flex;align-items:center;justify-content:center;font-weight:600;color:var(--dark);font-size:13px;letter-spacing:.5px;flex:none;}
