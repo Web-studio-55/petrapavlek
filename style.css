@@ -546,3 +546,6 @@ details.fold .fold-body{margin-top:16px;}
     url('img/tkanina.jpg') center top/cover no-repeat;background-color:#f7f0e7;}
   .soft-band.sb2 .sb-text{margin:0 auto;text-align:center;}
 }
+.icon-grid.cols6{grid-template-columns:repeat(6,1fr);gap:18px;}
+@media (max-width:1000px){.icon-grid.cols6{grid-template-columns:repeat(3,1fr);}}
+@media (max-width:560px){.icon-grid.cols6{grid-template-columns:repeat(2,1fr);}}
