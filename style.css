@@ -496,3 +496,6 @@ details.fold summary::-webkit-details-marker{display:none;}
 details.fold summary .lbl::after{content:'Prikaži više  ▾';}
 details.fold[open] summary .lbl::after{content:'Prikaži manje  ▴';}
 details.fold .fold-body{margin-top:16px;}
+.hero-feats{display:flex;gap:36px;margin-top:36px;flex-wrap:wrap;}
+.hf{display:flex;align-items:center;gap:12px;font-size:14px;color:var(--grey);}
+.hf svg{width:30px;height:30px;stroke:#a97e58;fill:none;stroke-width:1.5;flex:none;stroke-linecap:round;stroke-linejoin:round;}
