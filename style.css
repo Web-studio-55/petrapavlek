@@ -510,7 +510,7 @@ details.fold .fold-body{margin-top:16px;}
 .c2-left .c2-lead{font-size:13.5px;color:var(--grey);}
 .ck2{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:18px 46px;margin:0;padding:0;}
 .ck2 li{position:relative;padding-left:34px;font-size:15px;line-height:1.65;color:var(--grey);}
-.ck2 li svg{position:absolute;left:0;top:3px;width:20px;height:20px;stroke:#b0805a;fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
+.ck2 li svg{position:absolute;left:0;top:5px;width:15px;height:15px;stroke:#b0805a;fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
 @media (max-width:900px){
   .check2b{grid-template-columns:1fr;gap:34px;}
   .c2-left{padding-left:0;}
