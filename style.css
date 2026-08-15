@@ -517,3 +517,9 @@ details.fold .fold-body{margin-top:16px;}
   .c2-left .flw{display:none;}
   .ck2{grid-template-columns:1fr;}
 }
+
+/* ---- meka traka s tkaninom i srcem ---- */
+.soft-band{position:relative;background:url('img/tkanina.jpg') center/cover no-repeat;padding:88px 24px;text-align:center;}
+.soft-band::before{content:'';position:absolute;inset:0;background:rgba(252,246,238,.62);}
+.soft-band p{position:relative;font-family:'Lora',Georgia,serif;font-style:italic;font-size:clamp(18px,2.2vw,24px);color:var(--dark);max-width:920px;margin:0 auto 26px;line-height:1.75;}
+.soft-band .heart{position:relative;width:30px;height:30px;stroke:#b0805a;fill:none;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;display:block;margin:0 auto;}
