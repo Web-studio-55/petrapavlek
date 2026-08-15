@@ -523,3 +523,10 @@ details.fold .fold-body{margin-top:16px;}
 .soft-band::before{content:'';position:absolute;inset:0;background:rgba(252,246,238,.62);}
 .soft-band p{position:relative;font-family:'Lora',Georgia,serif;font-style:italic;font-size:clamp(18px,2.2vw,24px);color:var(--dark);max-width:920px;margin:0 auto 26px;line-height:1.75;}
 .soft-band .heart{position:relative;width:30px;height:30px;stroke:#b0805a;fill:none;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;display:block;margin:0 auto;}
+
+/* ---- FAQ lijevo + prakticne info desno ---- */
+.fp-grid{display:grid;grid-template-columns:.85fr 1.6fr;gap:48px;max-width:1300px;margin:0 auto;align-items:start;padding:0 24px;}
+.fp-grid h2{font-size:clamp(20px,2.2vw,26px);color:var(--dark);font-weight:500;margin-bottom:24px;}
+.fp-grid .faq{padding:0;}
+.fp-grid .duo{margin-top:0;max-width:none;}
+@media (max-width:1000px){.fp-grid{grid-template-columns:1fr;gap:40px;}}
