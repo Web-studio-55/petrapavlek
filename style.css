@@ -530,3 +530,19 @@ details.fold .fold-body{margin-top:16px;}
 .fp-grid .faq{padding:0;}
 .fp-grid .duo{margin-top:0;max-width:none;}
 @media (max-width:1000px){.fp-grid{grid-template-columns:1fr;gap:40px;}}
+
+/* ---- soft-band v2: fotka lijevo s blagim prijelazom, tekst desno ---- */
+.soft-band.sb2{background:
+  linear-gradient(90deg, rgba(247,240,231,.15) 0%, rgba(247,240,231,.55) 34%, #f7f0e7 56%, #f7f0e7 100%),
+  url('img/tkanina.jpg') left center/auto 100% no-repeat;
+  background-color:#f7f0e7;padding:84px 24px;text-align:left;}
+.soft-band.sb2::before{display:none;}
+.soft-band.sb2 .sb-text{position:relative;max-width:620px;margin-left:50%;}
+.soft-band.sb2 p{margin:0 0 24px;font-size:clamp(17px,1.9vw,21px);}
+.soft-band.sb2 .heart{margin:0 auto;}
+@media (max-width:900px){
+  .soft-band.sb2{background:
+    linear-gradient(180deg, rgba(247,240,231,.65) 0%, #f7f0e7 60%),
+    url('img/tkanina.jpg') center top/cover no-repeat;background-color:#f7f0e7;}
+  .soft-band.sb2 .sb-text{margin:0 auto;text-align:center;}
+}
