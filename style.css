@@ -581,3 +581,19 @@ em{font-style:normal;}
 .cklist li{position:relative;padding-left:38px;font-size:15.5px;line-height:1.65;}
 .cklist li svg{position:absolute;left:0;top:1px;width:22px;height:22px;stroke:#a97e58;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;}
 img.t-avatar{object-fit:cover;display:block;}
+
+/* ---- ovdje si sigurna traka ---- */
+.soft-band.ovdje{background:
+  linear-gradient(90deg, rgba(247,240,231,.05) 0%, rgba(247,240,231,.55) 34%, #f7f0e7 54%, #f7f0e7 100%),
+  url('img/ovdje.jpg') left center/auto 100% no-repeat;
+  background-color:#f7f0e7;padding:76px 24px;text-align:left;}
+.soft-band.ovdje .sb-text{position:relative;max-width:600px;margin-left:50%;}
+.soft-band.ovdje h2{font-size:clamp(22px,2.6vw,30px);color:var(--dark);font-weight:500;margin-bottom:16px;}
+.soft-band.ovdje p{margin:0 0 14px;font-size:15.5px;}
+.soft-band.ovdje .heart{width:28px;height:28px;stroke:#b0805a;fill:none;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;display:block;margin:10px auto 0;}
+@media (max-width:900px){
+  .soft-band.ovdje{background:
+    linear-gradient(180deg, rgba(247,240,231,.6) 0%, #f7f0e7 55%),
+    url('img/ovdje.jpg') center top/cover no-repeat;background-color:#f7f0e7;}
+  .soft-band.ovdje .sb-text{margin:0 auto;text-align:center;}
+}
