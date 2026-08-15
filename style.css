@@ -597,3 +597,12 @@ img.t-avatar{object-fit:cover;display:block;}
     url('img/ovdje.jpg') center top/cover no-repeat;background-color:#f7f0e7;}
   .soft-band.ovdje .sb-text{margin:0 auto;text-align:center;}
 }
+.soft-band.ovdje.razg{background:
+  linear-gradient(90deg, rgba(247,240,231,.05) 0%, rgba(247,240,231,.55) 34%, #f7f0e7 54%, #f7f0e7 100%),
+  url('img/prostor.jpg') left center/auto 100% no-repeat;
+  background-color:#f7f0e7;padding:70px 24px;}
+@media (max-width:900px){
+  .soft-band.ovdje.razg{background:
+    linear-gradient(180deg, rgba(247,240,231,.6) 0%, #f7f0e7 55%),
+    url('img/prostor.jpg') center top/cover no-repeat;background-color:#f7f0e7;}
+}
