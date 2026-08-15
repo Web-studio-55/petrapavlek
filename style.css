@@ -487,3 +487,12 @@ ul.ls.cols2{display:grid;grid-template-columns:1fr 1fr;gap:12px 34px;margin-bott
   .hm-sam{background-image:url('img/hero-samadhi-mob.jpg?10');background-position:center 30%;}
   .hm-sp{background-image:url('img/hero-sp-mob.jpg?6');background-position:center 25%;}
 }
+
+/* ---- prikazi vise preklopnik ---- */
+details.fold{margin:4px 0 16px;}
+details.fold summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--dark);border:1px solid #e3d3c1;background:#fffdfa;border-radius:999px;padding:9px 18px;transition:background .2s;}
+details.fold summary:hover{background:#f5ebe1;}
+details.fold summary::-webkit-details-marker{display:none;}
+details.fold summary .lbl::after{content:'Prikaži više  ▾';}
+details.fold[open] summary .lbl::after{content:'Prikaži manje  ▴';}
+details.fold .fold-body{margin-top:16px;}
