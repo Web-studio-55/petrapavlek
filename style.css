@@ -549,3 +549,6 @@ details.fold .fold-body{margin-top:16px;}
 .icon-grid.cols6{grid-template-columns:repeat(6,1fr);gap:18px;}
 @media (max-width:1000px){.icon-grid.cols6{grid-template-columns:repeat(3,1fr);}}
 @media (max-width:560px){.icon-grid.cols6{grid-template-columns:repeat(2,1fr);}}
+.c2-lead2{font-size:15px;color:var(--dark);margin-bottom:22px;}
+.ck2.iky li{padding-left:38px;}
+.ck2.iky li img{position:absolute;left:0;top:0;width:25px;height:25px;}
