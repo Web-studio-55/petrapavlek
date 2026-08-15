@@ -574,3 +574,10 @@ em{font-style:normal;}
 .t-card p{margin-bottom:22px;}
 .t-person{display:flex;align-items:center;gap:12px;margin-top:auto;}
 .t-avatar{width:44px;height:44px;border-radius:50%;background:#f5ebe1;border:1px solid #eadbc9;display:flex;align-items:center;justify-content:center;font-weight:600;color:var(--dark);font-size:13px;letter-spacing:.5px;flex:none;}
+
+/* ---- check panel ---- */
+.check-panel{background:#fffdfa;border-radius:18px;padding:38px 44px;box-shadow:0 6px 22px rgba(74,52,38,.05);margin:24px 0;}
+.cklist{list-style:none;display:grid;gap:16px;margin:0;padding:0;}
+.cklist li{position:relative;padding-left:38px;font-size:15.5px;line-height:1.65;}
+.cklist li svg{position:absolute;left:0;top:1px;width:22px;height:22px;stroke:#a97e58;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;}
+img.t-avatar{object-fit:cover;display:block;}
