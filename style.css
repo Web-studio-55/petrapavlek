@@ -563,3 +563,5 @@ details.fold .fold-body{margin-top:16px;}
 .fp-grid .dcard.left h3{margin-top:0;margin-bottom:14px;}
 
 em{font-style:normal;}
+.icon-grid.plain .ig{background:none;border:none;box-shadow:none;padding:12px 6px;}
+.icon-grid.plain .ig:hover{transform:none;box-shadow:none;}
