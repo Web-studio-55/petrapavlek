@@ -456,7 +456,7 @@ ul.ls.cols2{display:grid;grid-template-columns:1fr 1fr;gap:12px 34px;margin-bott
 .fw .intro .wrap .pl{max-width:1040px;}
 .fw .bigquote blockquote{max-width:1040px;}
 .fw .quote-band p{max-width:860px;}
-.quote-band{background-image:url('img/zavrsna.jpg');background-position:left center;}
+.quote-band{background-image:url('img/zavrsna.jpg?2');background-position:left center;}
 
 /* ---- samadhi v4: jace dizajnerske sekcije ---- */
 .icon-grid .ig{background:#fffdfa;border:1px solid #eee0d0;border-radius:16px;padding:28px 14px 24px;transition:transform .25s, box-shadow .25s;}
