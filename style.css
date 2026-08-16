@@ -607,3 +607,8 @@ img.t-avatar{object-fit:cover;display:block;}
     linear-gradient(180deg, rgba(247,240,231,.6) 0%, #f7f0e7 55%),
     url('img/lisce.jpg') center top/cover no-repeat;background-color:#f7f0e7;}
 }
+@media (max-width:560px){
+  .hero-feats{flex-wrap:nowrap;gap:12px;justify-content:space-between;margin-top:26px;}
+  .hf{gap:8px;font-size:10.5px;flex:1;}
+  .hf svg{width:20px;height:20px;}
+}
