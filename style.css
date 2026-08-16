@@ -612,3 +612,7 @@ img.t-avatar{object-fit:cover;display:block;}
   .hf{gap:8px;font-size:10.5px;flex:1;}
   .hf svg{width:20px;height:20px;}
 }
+@media (max-width:700px){
+  .quote-band{background-position:left center;padding:80px 24px;}
+  .quote-band::before{background:rgba(252,248,243,.85);}
+}
