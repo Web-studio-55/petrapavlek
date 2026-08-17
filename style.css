@@ -627,7 +627,7 @@ img.t-avatar{object-fit:cover;display:block;}
 
 /* ---- benefiti oko kruga ---- */
 .ben2wrap{position:relative;max-width:1240px;margin:0 auto;}
-.ben2-orb{position:absolute;left:50%;top:42%;transform:translate(-50%,-50%);width:min(600px,55vw);height:auto;opacity:.35;pointer-events:none;}
+.ben2-orb{position:absolute;left:50%;top:42%;transform:translate(-50%,-50%);width:min(600px,55vw);height:auto;opacity:.28;pointer-events:none;}
 .ben2wrap .ben2{position:relative;grid-template-columns:1fr 1fr;column-gap:min(300px,26vw);row-gap:64px;}
 .ben2-item.full{grid-column:1/-1;max-width:680px;margin:0 auto;text-align:center;}
 @media (max-width:900px){
