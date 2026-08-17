@@ -635,3 +635,7 @@ img.t-avatar{object-fit:cover;display:block;}
   .ben2wrap .ben2{column-gap:40px;row-gap:40px;}
   .ben2-item.full{text-align:left;}
 }
+.check-panel{max-width:880px;margin:28px auto;padding:42px 52px;}
+.cklist{grid-template-columns:1fr 1fr;gap:20px 44px;}
+.cklist li:last-child{grid-column:1/-1;justify-self:center;max-width:520px;}
+@media (max-width:700px){.cklist{grid-template-columns:1fr;gap:16px;}.cklist li:last-child{grid-column:auto;justify-self:start;}.check-panel{padding:30px 26px;}}
