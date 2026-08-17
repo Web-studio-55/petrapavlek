@@ -654,7 +654,7 @@ img.t-avatar{object-fit:cover;display:block;}
 .ben2-item h3{font-size:clamp(25px,2.6vw,33px);font-weight:500;color:#9b7a58;margin-bottom:4px;}
 .ben-sub{font-family:'Lora',Georgia,serif;font-size:clamp(15px,1.6vw,19px);color:#bb9873;margin-bottom:14px;}
 .ben2wrap .ben2{grid-template-columns:1fr 1fr;column-gap:120px;row-gap:60px;}
-.ben2-orb{width:min(880px,80vw);top:46%;opacity:.32;}
+.ben2-orb{width:min(900px,82vw);top:47%;opacity:.5;}
 @media (max-width:900px){
   .ben2wrap .ben2{grid-template-columns:1fr;column-gap:40px;row-gap:44px;}
 }
