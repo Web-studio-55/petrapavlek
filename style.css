@@ -632,7 +632,7 @@ img.t-avatar{object-fit:cover;display:block;}
 .ben2-item.full{grid-column:1/-1;max-width:680px;margin:0 auto;text-align:center;}
 @media (max-width:900px){
   .ben2-orb{display:none;}
-  .ben2wrap .ben2{column-gap:40px;row-gap:40px;}
+  .ben2wrap .ben2{grid-template-columns:1fr;column-gap:40px;row-gap:40px;}
   .ben2-item.full{text-align:left;}
 }
 .check-panel{max-width:880px;margin:28px auto;padding:42px 52px;}
