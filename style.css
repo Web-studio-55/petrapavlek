@@ -649,3 +649,12 @@ img.t-avatar{object-fit:cover;display:block;}
 .bubble{align-self:flex-start;background:#fffdfa;border:1px solid #f0e4d5;border-radius:20px 20px 20px 5px;padding:14px 24px;font-size:15px;color:var(--grey);box-shadow:0 4px 14px rgba(74,52,38,.05);max-width:82%;}
 .bubble.r{align-self:flex-end;border-radius:20px 20px 5px 20px;background:#f8ede1;border-color:#eeddc8;}
 @media (max-width:560px){.bubble{max-width:94%;padding:12px 18px;font-size:14.5px;}}
+
+/* ---- benefiti po referenci: veci mekani naslovi, krug iza teksta ---- */
+.ben2-item h3{font-size:clamp(25px,2.6vw,33px);font-weight:500;color:#9b7a58;margin-bottom:4px;}
+.ben-sub{font-family:'Lora',Georgia,serif;font-size:clamp(15px,1.6vw,19px);color:#bb9873;margin-bottom:14px;}
+.ben2wrap .ben2{grid-template-columns:1fr 1fr;column-gap:120px;row-gap:60px;}
+.ben2-orb{width:min(880px,80vw);top:46%;opacity:.32;}
+@media (max-width:900px){
+  .ben2wrap .ben2{grid-template-columns:1fr;column-gap:40px;row-gap:44px;}
+}
