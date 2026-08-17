@@ -643,3 +643,9 @@ img.t-avatar{object-fit:cover;display:block;}
 .quote-band blockquote{font-family:'Lora',Georgia,serif;font-size:clamp(20px,2.6vw,28px);color:var(--dark);max-width:820px;margin:0 auto;line-height:1.6;position:relative;}
 
 .quote-band.qb-kv{background-image:url('img/kvaliteta.jpg?2');background-position:left top;padding:96px 24px;}
+
+/* ---- oblacici misli ---- */
+.bubbles{max-width:720px;margin:32px auto 30px;display:flex;flex-direction:column;gap:14px;}
+.bubble{align-self:flex-start;background:#fffdfa;border:1px solid #f0e4d5;border-radius:20px 20px 20px 5px;padding:14px 24px;font-size:15px;color:var(--grey);box-shadow:0 4px 14px rgba(74,52,38,.05);max-width:82%;}
+.bubble.r{align-self:flex-end;border-radius:20px 20px 5px 20px;background:#f8ede1;border-color:#eeddc8;}
+@media (max-width:560px){.bubble{max-width:94%;padding:12px 18px;font-size:14.5px;}}
